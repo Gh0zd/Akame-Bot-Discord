@@ -1,0 +1,1025 @@
+{
+  "common": {
+    "supportServer": "Support server",
+    "inviteMe": "Invite me",
+    "requestedBy": "Requested by: {user}",
+    "submissionReceived": "✅ Your submission was received successfully!",
+    "user": "User"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again later. Need help? {support}",
+    "inappropriate": "The text contains inappropriate content.",
+    "inappropriateName": "The username contains inappropriate content.",
+    "maintenance": "❎ `/{command}` is in **maintenance mode**. Please try again later.",
+    "ownerOnly": "❎ You cannot use `/{command}`: it is a developer command.",
+    "nsfwOnly": "🔞 NSFW content is not allowed here. Use this command in a channel marked as NSFW.",
+    "premiumOnly": "💎 This command is **Premium** only. Join {support} to learn more.",
+    "userMissingPermissions": "❎ You are missing the permissions required to use this command: {permissions}",
+    "botMissingPermissions": "❎ I am missing permissions in this channel: {permissions}",
+    "cooldown": "⏳ Please wait `{seconds}s` before using `/{command}` again.",
+    "blacklistedUser": "🚫 You have been blacklisted from using this bot.\n**Reason:** {reason}\n**Since:** {time}",
+    "blacklistedGuild": "🚫 This server has been blacklisted from using this bot.\n**Reason:** {reason}\n**Since:** {time}"
+  },
+  "permissions": {
+    "ViewChannel": "View Channel",
+    "SendMessages": "Send Messages",
+    "EmbedLinks": "Embed Links",
+    "AttachFiles": "Attach Files",
+    "ManageGuild": "Manage Server",
+    "Administrator": "Administrator",
+    "ManageNicknames": "Manage Nicknames",
+    "ReadMessageHistory": "Read Message History",
+    "UseExternalEmojis": "Use External Emojis",
+    "SendMessagesInThreads": "Send Messages in Threads",
+    "AddReactions": "Add Reactions",
+    "ManageMessages": "Manage Messages",
+    "ManageRoles": "Manage Roles",
+    "ManageChannels": "Manage Channels",
+    "KickMembers": "Kick Members",
+    "BanMembers": "Ban Members",
+    "ModerateMembers": "Timeout Members",
+    "ManageWebhooks": "Manage Webhooks",
+    "MentionEveryone": "Mention Everyone",
+    "UseApplicationCommands": "Use Application Commands",
+    "CreateInstantInvite": "Create Invite",
+    "Connect": "Connect",
+    "Speak": "Speak"
+  },
+  "events": {
+    "afk": {
+      "welcomeBack": "Welcome back, {user}! Your AFK status was removed.\nAway since {since}",
+      "userIsAfk": "{user} is AFK.\n**Reason:** {reason}\nAway since {since}"
+    },
+    "mention": {
+      "text": "> **{bot}** now works with **slash commands**. Type `/help` to see everything I can do!"
+    },
+    "pingJoin": "{member} joined the server! Welcome to **{server}**!",
+    "welcome": {
+      "cardTitle": "Welcome",
+      "cardMessage": "Welcome to the server",
+      "defaultMessage": "Welcome, {member}! Enjoy your stay in **{server}**."
+    }
+  },
+  "help": {
+    "title": "Help",
+    "intro": "I have **{count}** commands. Pick a category in the menu below.",
+    "placeholder": "Choose a category",
+    "categories": {
+      "info": "Information",
+      "utility": "Utilities",
+      "fun": "Fun",
+      "games": "Mini-games",
+      "images": "Images",
+      "search": "Search",
+      "server": "Server",
+      "user": "User",
+      "settings": "Settings",
+      "interaction": "Interaction"
+    }
+  },
+  "userinfo": {
+    "created": "Account created",
+    "joined": "Joined server",
+    "boosting": "Boosting since",
+    "bot": "Bot",
+    "badges": "Badges",
+    "roles": "Roles ({count})",
+    "avatarOf": "{user}'s avatar",
+    "avatarHint": "Download it or choose a size.",
+    "chooseSize": "Choose a size",
+    "bannerOf": "{user}'s banner",
+    "permissionsOf": "{user}'s permissions in this channel",
+    "noBanner": "This user has no banner.",
+    "notInServer": "That user is not in this server."
+  },
+  "context": {
+    "translate": {
+      "empty": "There is no text to translate.",
+      "tooLong": "The text is too long (max {max} characters)."
+    },
+    "report": {
+      "title": "Report a user",
+      "reason": "Reason for the report"
+    }
+  },
+  "server": {
+    "owner": "Owner",
+    "locale": "Locale",
+    "created": "Created",
+    "members": "Members",
+    "channels": "Channels",
+    "text": "Text",
+    "voice": "Voice",
+    "threads": "Threads",
+    "categories": "Categories",
+    "news": "Announcements",
+    "stage": "Stage",
+    "emojis": "Emojis & Stickers",
+    "animated": "Animated",
+    "static": "Static",
+    "details": "Details",
+    "verification": "Verification",
+    "boosts": "Boosts",
+    "tier": "tier",
+    "roles": "Roles",
+    "levels": {
+      "none": "None",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "(╯°□°）╯︵ ┻━┻",
+      "veryHigh": "┻━┻ミヽ(ಠ益ಠ)ノ彡┻━┻"
+    },
+    "noImage": "This server has no image of that type.",
+    "membersTitle": "Server members",
+    "firstJoined": "First to join",
+    "lastJoined": "Last to join",
+    "oldestAccount": "Oldest account",
+    "newestAccount": "Newest account",
+    "notTextChannel": "That channel is not a text channel.",
+    "noMessages": "No messages found in that channel.",
+    "firstMessage": "First message in #{channel}",
+    "sent": "Sent",
+    "type": "Type",
+    "category": "Category",
+    "topic": "Topic",
+    "slowmode": "Slowmode",
+    "color": "Color",
+    "hoisted": "Hoisted",
+    "mentionable": "Mentionable",
+    "permissions": "Permissions",
+    "inviteInvalid": "That invite is invalid or has expired.",
+    "inviter": "Inviter",
+    "channel": "Channel",
+    "expires": "Expires"
+  },
+  "search": {
+    "notFound": "No results found for \"{query}\".",
+    "apiError": "Could not complete the search. Please try again later.",
+    "pokemon": {
+      "baseExp": "Base experience",
+      "weight": "Weight",
+      "height": "Height",
+      "types": "Types",
+      "abilities": "Abilities"
+    },
+    "urban": {
+      "definition": "Definition",
+      "example": "Example",
+      "ratings": "Ratings"
+    },
+    "weather": {
+      "title": "Weather for {place}",
+      "temperature": "Temperature",
+      "feelsLike": "Feels like",
+      "wind": "Wind",
+      "humidity": "Humidity",
+      "observed": "Observed"
+    },
+    "anime": {
+      "aired": "Aired",
+      "japanese": "Japanese title",
+      "status": "Status",
+      "rating": "Kitsu rating",
+      "episodes": "Episodes",
+      "type": "Type"
+    }
+  },
+  "welcome": {
+    "panelTitle": "Welcome settings",
+    "panelBody": "> **Customize the design, colors, and messages; use Preview to check the result.**\nPlaceholders: `[username] [servername] [mention] [membercount] [inviter] [invitername] [invitecount] [accountcreated]`",
+    "setupChannel": "Channel",
+    "setupMessage": "Message",
+    "setupAppearance": "Colors & background",
+    "previewButton": "Preview",
+    "circleOn": "Circular avatar",
+    "circleOff": "Square avatar",
+    "deletePlaceholder": "Remove a setting",
+    "delete": {
+      "color": "Remove color",
+      "message": "Remove message",
+      "cardMessage": "Reset card text",
+      "cardType": "Reset card title",
+      "nameColor": "Reset name color",
+      "typeColor": "Reset title color",
+      "messageColor": "Reset message color",
+      "channel": "Remove channel",
+      "background": "Remove background"
+    },
+    "deleted": {
+      "color": "✅ Welcome color removed.",
+      "message": "✅ Welcome message removed.",
+      "cardMessage": "Card text reset.",
+      "cardType": "Card title reset.",
+      "nameColor": "Name color reset.",
+      "typeColor": "Title color reset.",
+      "messageColor": "Text color reset.",
+      "channel": "✅ Welcome channel removed.",
+      "background": "✅ Welcome background removed."
+    },
+    "stylePlaceholder": "Choose a card design",
+    "styles": {
+      "minimal": "Minimal",
+      "panorama": "Panorama"
+    },
+    "status": {
+      "style": "Design",
+      "channel": "Welcome channel",
+      "background": "Background",
+      "avatar": "Avatar",
+      "cardText": "Card text",
+      "discordMessage": "Discord message",
+      "notSet": "Not set",
+      "custom": "Custom",
+      "default": "Default"
+    },
+    "circleEnabled": "Circular avatar enabled.",
+    "circleDisabled": "Circular avatar disabled.",
+    "invalidSetting": "That configuration option is invalid.",
+    "channelPlaceholder": "Select the welcome channel",
+    "invalidImage": "❌ Invalid URL. It must start with http(s):// and end in .png or .jpg.",
+    "invalidColor": "❌ Invalid hex color (example: #ff8800).",
+    "saved": {
+      "background": "✅ Welcome background saved.",
+      "color": "✅ Welcome color saved.",
+      "message": "✅ Welcome message saved.",
+      "channel": "✅ Welcome channel set: {channel}",
+      "style": "Card design updated.",
+      "updated": "Welcome settings saved."
+    },
+    "modal": {
+      "background": {
+        "title": "Welcome background",
+        "label": "Image link",
+        "placeholder": "https://… ending in .png or .jpg"
+      },
+      "color": {
+        "title": "Welcome color",
+        "label": "Hex color",
+        "placeholder": "#0099ff"
+      },
+      "message": {
+        "title": "Welcome message",
+        "label": "Message",
+        "placeholder": "Hi [mention], welcome to [servername]!"
+      },
+      "text": {
+        "title": "Customize text",
+        "type": "Card title",
+        "typePlaceholder": "Welcome",
+        "cardMessage": "Text on the card",
+        "cardMessagePlaceholder": "Welcome to the server",
+        "discordMessage": "Message sent to Discord",
+        "discordMessagePlaceholder": "Welcome [mention] to [servername]!"
+      },
+      "appearance": {
+        "title": "Customize appearance",
+        "background": "Background URL",
+        "backgroundPlaceholder": "https://example.com/background.png",
+        "nameColor": "Name color",
+        "nameColorPlaceholder": "#00FF9E",
+        "typeColor": "Title color",
+        "typeColorPlaceholder": "#FFFFFF",
+        "messageColor": "Text color",
+        "messageColorPlaceholder": "#FFFFFF"
+      }
+    }
+  },
+  "commands": {
+    "options": {
+      "target": "The target user.",
+      "targetOptional": "The target user (optional)."
+    },
+    "ping": {
+      "description": "Shows the bot latency and API ping.",
+      "title": "Latency & API",
+      "latency": "Latency",
+      "api": "API latency",
+      "uptime": "Uptime"
+    },
+    "invite": {
+      "description": "Get the bot invite link.",
+      "title": "Invite me",
+      "body": "Add the bot to your server. [Click here]({url})"
+    },
+    "support": {
+      "name": "support",
+      "description": "Get the support server link.",
+      "whatIs": "What is support?",
+      "whatIsBody": "Technical support helps you use the bot. Join to report bugs, request features or ask for help.",
+      "body": "You can join my support server here:\n{url}"
+    },
+    "help": {
+      "description": "Browse all commands by category."
+    },
+    "bot": {
+      "description": "Bot related commands.",
+      "info": "Show information about the bot.",
+      "privacy": "Read the privacy policy.",
+      "bug": "Report a bug.",
+      "suggestion": "Send a suggestion.",
+      "servers": "Servers",
+      "users": "Users",
+      "uptime": "Uptime",
+      "memory": "Memory",
+      "versions": "Versions",
+      "system": "System",
+      "bugTitle": "Bug report",
+      "bugCommand": "Which command?",
+      "bugDescription": "Describe the problem",
+      "suggestionTitle": "Suggestion",
+      "suggestionLabel": "Describe your suggestion",
+      "suggestionHint": "Nonsense suggestions may lead to sanctions.",
+      "privacyPages": {
+        "intro": {
+          "title": "Privacy policy",
+          "body": "> This document describes the information collected by the bot and how it is used.\n> By using the bot you accept this policy."
+        },
+        "legal": {
+          "title": "Legal action",
+          "body": "> Personal data may be used by the owner in legal proceedings in case of misuse of the bot.\n> The owner may be required to disclose data at the request of public authorities."
+        },
+        "minors": {
+          "title": "Minors",
+          "body": "> We do not knowingly collect information from children under 13.\n> If you believe a child provided such data, contact us so we can delete it."
+        },
+        "usage": {
+          "title": "How we use data",
+          "body": "> We use the information to:\n> - Provide, operate and maintain the bot\n> - Personalize and improve it\n> - Analyze usage patterns\n> - Develop new features"
+        },
+        "rights": {
+          "title": "Your rights",
+          "body": "> You may withdraw consent at any time.\n> You may ask us to correct or delete your data.\n> You may complain to your data protection authority."
+        },
+        "changes": {
+          "title": "Changes",
+          "body": "> We may update this policy at any time. Check this command regularly.\n> If a change requires your consent, we will ask for it again."
+        }
+      }
+    },
+    "language": {
+      "description": "Change the bot language for this server or for yourself.",
+      "server": "Set the language for this server (Manage Server).",
+      "me": "Set your personal language.",
+      "reset": "Go back to the default language.",
+      "view": "Show the active language.",
+      "options": {
+        "language": "The language to use.",
+        "scope": "What to reset."
+      },
+      "serverSet": "Server language set to {language}.",
+      "userSet": "Your language was set to {language}.",
+      "resetDone": "Preference removed. Default language: {default}.",
+      "notSet": "not set",
+      "current": "**Active:** {active}\n**Your preference:** {user}\n**Server:** {server}\n**Default:** {default}\n_Your preference has priority over the server's._"
+    },
+    "afk": {
+      "description": "Set yourself as AFK with an optional reason.",
+      "options": {
+        "reason": "Why you are away."
+      },
+      "already": "You are already AFK!",
+      "noReason": "No reason provided",
+      "set": "Your AFK status was set.",
+      "description_set": "{user} is now AFK!\n**Reason:** {reason}",
+      "footer": "I'll tell anyone who mentions you"
+    },
+    "say": {
+      "description": "Make the bot send a message.",
+      "options": {
+        "text": "The text to send."
+      },
+      "sent": "Your message was sent!"
+    },
+    "translate": {
+      "name": "translate",
+      "description": "Translate text into another language.",
+      "options": {
+        "text": "The text to translate.",
+        "language": "The target language."
+      },
+      "failed": "The text could not be translated.",
+      "original": "Original",
+      "translated": "Translation ({language})",
+      "footer": "Powered by Google Translate"
+    },
+    "8ball": {
+      "description": "Ask the magic 8-ball.",
+      "options": {
+        "question": "Your question."
+      },
+      "question": "Question:",
+      "answer": "Answer:",
+      "answers": [
+        "It is certain.",
+        "Without a doubt.",
+        "Yes, definitely.",
+        "You may rely on it.",
+        "As I see it, yes.",
+        "Most likely.",
+        "Outlook good.",
+        "Yes.",
+        "Signs point to yes.",
+        "Reply hazy, try again.",
+        "Ask again later.",
+        "Better not tell you now.",
+        "Cannot predict now.",
+        "Concentrate and ask again.",
+        "Don't count on it.",
+        "My reply is no.",
+        "My sources say no.",
+        "Outlook not so good.",
+        "Very doubtful.",
+        "Absolutely not! >.<"
+      ]
+    },
+    "roll": {
+      "description": "Roll a die.",
+      "rolled": "**{user} rolled a die**"
+    },
+    "reverse": {
+      "description": "Repeat your text backwards.",
+      "options": {
+        "text": "Text to reverse."
+      }
+    },
+    "ascii": {
+      "description": "Turn your text into ASCII art.",
+      "options": {
+        "text": "Text (max 30 characters)."
+      },
+      "unsupported": "The text contains unsupported characters."
+    },
+    "bigtext": {
+      "description": "Turn your text into regional indicators.",
+      "options": {
+        "text": "Text (max 40 characters)."
+      }
+    },
+    "banana": {
+      "description": "How long is your banana?",
+      "title": "Banana meter",
+      "question": "🍌 **{user}**, is that really your banana?",
+      "measures": "**{user}**'s banana measures:"
+    },
+    "fortune": {
+      "name": "fortune",
+      "description": "Open a fortune cookie.",
+      "says": "Your fortune cookie says:",
+      "forecast": "Your forecast:",
+      "love": "Love",
+      "health": "Health",
+      "money": "Money",
+      "luck": "Luck",
+      "prosperity": "Prosperity",
+      "messages": [
+        "You know exactly what you want. Work on it and make it happen.",
+        "Today your special gifts will be recognized and you will be happy for hours.",
+        "Happiness is waiting for you. Don't forget to catch it and keep it with you.",
+        "The sky will be your limit: great things are coming your way.",
+        "Focus on what you want to achieve and you will win. Don't forget it.",
+        "You will have a day full of joy and good moments. Enjoy them like never before.",
+        "With integrity and consistency, your credit keeps growing.",
+        "Reach out today to help someone. It will come back to you.",
+        "A small step today is a big leap tomorrow.",
+        "Good news is closer than you think.",
+        "Your patience is about to be rewarded.",
+        "An unexpected invitation will change your week.",
+        "Trust your instincts: they know more than you think.",
+        "The best time to start is now.",
+        "Someone is thinking of you right now.",
+        "Luck favors the brave. Be brave today.",
+        "A new friendship will bring you great joy.",
+        "Don't rush: the best things take time.",
+        "Your kindness will open an important door.",
+        "Today is a good day to forgive and move on."
+      ]
+    },
+    "meter": {
+      "description": "Fun random meters.",
+      "gay": {
+        "description": "Gay meter.",
+        "title": "Gay meter",
+        "question": ":rainbow_flag: **{user}**, are you really gay?",
+        "result": "The gay percentage is:"
+      },
+      "simp": {
+        "description": "Simp meter.",
+        "title": "Simp meter",
+        "question": "💘 **{user}**, how much of a simp are you?",
+        "result": "The simp percentage is:"
+      }
+    },
+    "ship": {
+      "description": "Check the love compatibility between two users.",
+      "options": {
+        "user1": "First user.",
+        "user2": "Second user (default: you)."
+      },
+      "title": "Love compatibility",
+      "name": "Ship name",
+      "compatibility": "Compatibility",
+      "messages": {
+        "10": "More likely to stay just friends.",
+        "20": "You could try, but maybe it's not the right time.",
+        "30": "I think you'd do better with someone else.",
+        "40": "It looks like you really like each other!",
+        "50": "There's potential for a great love story here!",
+        "60": "There's some chemistry. Why not try?",
+        "70": "Aww, you do like each other.",
+        "80": "Definitely the cutest couple.",
+        "90": "You should definitely be together.",
+        "100": "I couldn't have shipped a better couple."
+      }
+    },
+    "animal": {
+      "description": "Get a random fact about an animal.",
+      "options": {
+        "type": "Pick an animal."
+      },
+      "failed": "Could not get the animal data. Try again later.",
+      "title": "Fun fact about {animal}",
+      "names": {
+        "dog": "dogs",
+        "cat": "cats",
+        "panda": "pandas",
+        "fox": "foxes",
+        "bird": "birds",
+        "koala": "koalas"
+      }
+    },
+    "games": {
+      "description": "Play games in the server.",
+      "slots": "Play the slot machine.",
+      "2048": "Play 2048.",
+      "hangman": "Guess the word before the hangman is complete.",
+      "mines": "Play minesweeper.",
+      "findemoji": "Find the hidden emojis.",
+      "flood": "Play Flood.",
+      "snake": "Play the classic Snake.",
+      "rps": "Play rock, paper, scissors against someone.",
+      "tictactoe": "Play tic-tac-toe against someone.",
+      "connect4": "Play Connect 4 against someone.",
+      "options": {
+        "opponent": "Your opponent."
+      },
+      "hangmanWin": "You won! The word was **{word}**",
+      "hangmanLose": "You lost! The word was **{word}**.",
+      "invalidOpponent": "You can't play against yourself or a bot.",
+      "playerOnly": "Only {player} can use these buttons."
+    },
+    "filters": {
+      "name": "filters",
+      "description": "Apply a filter to a user's avatar.",
+      "options": {
+        "filter": "The filter to apply."
+      }
+    },
+    "image": {
+      "description": "Image manipulation commands.",
+      "failed": "Could not generate the image. Try again later.",
+      "textBlocked": "The text can't contain offensive words or links (administrators are exempt).",
+      "textTooLong": "The text is too long (max {max} characters).",
+      "options": {
+        "textOption": "Choose a template.",
+        "message": "The text to write."
+      },
+      "effects": {
+        "delete": "Delete meme.",
+        "wanted": "Wanted poster.",
+        "trash": "Trash meme.",
+        "triggered": "Triggered gif.",
+        "rip": "Tombstone.",
+        "bobross": "Bob Ross painting.",
+        "facepalm": "Facepalm.",
+        "poutine": "Poutine.",
+        "ad": "Advertisement.",
+        "mms": "M&M's.",
+        "jail": "Behind bars.",
+        "stonk": "Stonks.",
+        "notstonk": "Not stonks.",
+        "confusedstonk": "Confused stonks.",
+        "clown": "Clown.",
+        "simpcard": "Simp card.",
+        "plsbro": "Please bro.",
+        "text": "Write text on an image."
+      }
+    },
+    "search": {
+      "name": "search",
+      "description": "Search commands to get information.",
+      "lyrics": "Get a song's lyrics.",
+      "pokemon": "See a Pokémon's stats.",
+      "urban": "Define a term on Urban Dictionary.",
+      "weather": "Check the weather forecast.",
+      "anime": "Get info about an anime (Kitsu).",
+      "wikipedia": "Search Wikipedia.",
+      "options": {
+        "lyrics": "Song title (\"artist - song\" works best).",
+        "pokemon": "Pokémon name or ID.",
+        "urban": "The term to look up.",
+        "weather": "A location.",
+        "anime": "The anime name.",
+        "wikipedia": "What to search for."
+      }
+    },
+    "server": {
+      "description": "Get server information and resources.",
+      "info": "Detailed server information.",
+      "images": "Server banner, icon or splash.",
+      "members": "Oldest and newest members.",
+      "firstMessage": "Get the first message of a channel.",
+      "channelInfo": "Information about a channel.",
+      "roleInfo": "Information about a role.",
+      "inviteInfo": "Information about an invite.",
+      "options": {
+        "imageType": "Image type.",
+        "channel": "A channel.",
+        "role": "A role.",
+        "invite": "Invite code (example: dGB9fJ3azu)."
+      }
+    },
+    "user": {
+      "description": "Discord user information commands.",
+      "info": "Detailed information about a user.",
+      "avatar": "Get a user's avatar.",
+      "banner": "Get a user's banner.",
+      "checkperms": "Check a user's permissions in this channel."
+    },
+    "welcome": {
+      "description": "Configure the welcome system.",
+      "setup": "Open the welcome settings panel.",
+      "pingJoin": "Ping new members and delete the ping right away.",
+      "options": {
+        "enabled": "Enable or disable it.",
+        "channel": "Channel for the ping (default: system channel).",
+        "message": "Custom message."
+      },
+      "pingJoinOn": "Ping on join enabled.",
+      "pingJoinOff": "Ping on join disabled."
+    },
+    "redeem": {
+      "description": "Redeem a premium code.",
+      "options": {
+        "code": "The code to redeem."
+      },
+      "already": "You already have an active Premium.",
+      "invalid": "That code is not valid.",
+      "success": "You redeemed Premium successfully! It expires {expires}."
+    },
+    "premium": {
+      "description": "See your Premium status.",
+      "none": "You don't have an active Premium. Use `/redeem` if you have a code.",
+      "active": "Your Premium expires {expires}.",
+      "plan": "Plan",
+      "user": "User",
+      "expires": "Expires"
+    },
+    "blacklist": {
+      "description": "Manage the blacklist (developers).",
+      "add": "Blacklist a user or server.",
+      "remove": "Remove an entry from the blacklist.",
+      "list": "Show recent entries.",
+      "options": {
+        "id": "User or server ID.",
+        "reason": "Reason.",
+        "target": "User or server."
+      },
+      "invalidId": "Invalid ID.",
+      "added": "{target} `{id}` was blacklisted.",
+      "removed": "{target} `{id}` was removed from the blacklist.",
+      "notFound": "{target} `{id}` is not blacklisted."
+    },
+    "generate": {
+      "description": "Generate premium codes (developers).",
+      "options": {
+        "plan": "The plan.",
+        "amount": "How many codes (1-25)."
+      },
+      "title": "Generate codes",
+      "generated": "• Generated [{count}]",
+      "plan": "• Plan",
+      "expires": "• Expires",
+      "footer": "Use /redeem <code> to redeem!",
+      "none": "No codes could be generated."
+    },
+    "badge": {
+      "description": "Manage user badges (developers).",
+      "options": {
+        "badge": "The badge.",
+        "enabled": "Add (true) or remove (false)."
+      },
+      "added": "Badge `{badge}` added to {user}.",
+      "removed": "Badge `{badge}` removed from {user}.",
+      "nothing": "Nothing to change."
+    },
+    "hoststats": {
+      "description": "Host and process statistics (developers)."
+    },
+    "servers": {
+      "description": "Server lists (developers).",
+      "top": "Top 20 servers by members.",
+      "list": "Full list as a .txt file."
+    },
+    "restart": {
+      "description": "Restart the bot (developers).",
+      "restarting": "🤖 Bot is restarting…"
+    },
+    "setavatar": {
+      "description": "Change the bot avatar (developers).",
+      "options": {
+        "link": "Image link."
+      },
+      "done": "Avatar updated.",
+      "failed": "Could not update the avatar: {error}"
+    },
+    "screenshot": {
+      "description": "Take a screenshot of a website (developers).",
+      "options": {
+        "url": "The URL."
+      },
+      "invalid": "Invalid URL.",
+      "failed": "Could not take the screenshot."
+    },
+    "eval": {
+      "description": "Run code (developers, disabled by default)."
+    },
+    "calculator": {
+      "name": "calculator",
+      "description": "Open a calculator with buttons.",
+      "title": "Calculator",
+      "invalid": "Invalid expression",
+      "divisionByZero": "Cannot divide by zero",
+      "onlyOwner": "Only {user} can use these buttons."
+    },
+    "interact": {
+      "name": "interact",
+      "description": "Interact with other users (hug, pat, kiss…)."
+    },
+    "react": {
+      "name": "react",
+      "description": "Express a reaction with a GIF (cry, happy, blush…)."
+    }
+  },
+  "reactions": {
+    "apiError": "Could not fetch a GIF right now. Please try again later.",
+    "counter": {
+      "hug": "**{target}** has received **{count}** hug(s) in total.",
+      "kiss": "**{target}** has received **{count}** kiss(es) in total.",
+      "pat": "**{target}** has received **{count}** pat(s) in total.",
+      "slap": "**{target}** has received **{count}** slap(s) in total."
+    },
+    "userOption": "A user (optional).",
+    "angry": {
+      "description": "Show that you are angry.",
+      "self": "**{user}** feels really annoyed >-<",
+      "target": "**{user}** got angry at **{target}**",
+      "bot": "**{user}**, don't be mad at me. u.u"
+    },
+    "baka": {
+      "description": "Call someone a baka (idiot).",
+      "self": "**{user}** calls themselves a baka... how cute!",
+      "target": "**{user}** called **{target}** a baka",
+      "bot": "**{user}**, you're the baka here! >.<"
+    },
+    "bite": {
+      "description": "Bite someone, nom nom~",
+      "self": "I'm going to bite you **{user}**, you're so sweet...",
+      "target": "**{user}** bit **{target}**",
+      "bot": "**{user}**, don't bite me..."
+    },
+    "coffee": {
+      "description": "Have a nice cup of coffee.",
+      "self": "**{user}** enjoys a coffee.",
+      "target": "**{user}** treats **{target}** to a coffee",
+      "bot": "**{user}** buys me a coffee, thanks!"
+    },
+    "cuddle": {
+      "description": "Cuddle with someone.",
+      "self": "**{user}** wants a cuddle... come here, I'll cuddle you.",
+      "target": "**{user}** cuddles with **{target}**",
+      "bot": "**{user}** cuddles with me, how sweet! >.<"
+    },
+    "dance": {
+      "description": "Dance alone or with someone.",
+      "self": "**{user}** is dancing.",
+      "target": "**{user}** dances with **{target}**",
+      "bot": "**{user}** dances with me, let's go!"
+    },
+    "handhold": {
+      "description": "Hold someone's hand.",
+      "self": "**{user}** is looking for a hand to hold... take mine.",
+      "target": "**{user}** holds **{target}**'s hand",
+      "bot": "**{user}** holds my hand, thanks!"
+    },
+    "hi": {
+      "description": "Say hi to everyone or to someone.",
+      "self": "**{user}** says hi to everyone.",
+      "target": "**{user}** says hi to **{target}**",
+      "bot": "Hi **{user}**!"
+    },
+    "highfive": {
+      "description": "Give a high five!",
+      "self": "**{user}** high-fives the air... let me high-five you!",
+      "target": "**{user}** high-fives **{target}**",
+      "bot": "High five, **{user}**!"
+    },
+    "hug": {
+      "description": "Give someone a hug.",
+      "self": "Here are some hugs for you, **{user}**",
+      "target": "**{user}** hugged **{target}**",
+      "bot": "**{user}** hugs me, thank you!"
+    },
+    "kiss": {
+      "description": "Give someone a kiss.",
+      "self": "**{user}** blows a kiss into the air.",
+      "target": "**{user}** kissed **{target}**",
+      "bot": "**{user}**, how embarrassing! >///<"
+    },
+    "laugh": {
+      "description": "Laugh at something or someone.",
+      "self": "**{user}** is laughing.",
+      "target": "**{user}** laughs at **{target}**",
+      "bot": "**{user}** laughs at me... ;-;"
+    },
+    "lick": {
+      "description": "Lick someone.",
+      "self": "**{user}** licks themselves... weird.",
+      "target": "**{user}** licked **{target}**",
+      "bot": "**{user}**, don't lick me!"
+    },
+    "pat": {
+      "description": "Pat someone.",
+      "self": "**{user}** pats their own head.",
+      "target": "**{user}** pats **{target}**",
+      "bot": "**{user}** pats me, nyaa~!"
+    },
+    "poke": {
+      "description": "Poke someone.",
+      "self": "**{user}** pokes themselves.",
+      "target": "**{user}** pokes **{target}**",
+      "bot": "**{user}**, don't poke me!"
+    },
+    "punch": {
+      "description": "Punch someone D':",
+      "self": "**{user}** punches themselves... ouch!",
+      "target": "**{user}** punched **{target}**",
+      "bot": "**{user}**, don't hit me! ;-;"
+    },
+    "scared": {
+      "description": "Show that you are scared.",
+      "self": "**{user}** is very scared.",
+      "target": "**{user}** is scared of **{target}**",
+      "bot": "**{user}**, don't be scared, I'm nice."
+    },
+    "shy": {
+      "description": "Show that you are shy.",
+      "self": "**{user}** gets shy.",
+      "target": "**{user}** gets shy in front of **{target}**",
+      "bot": "**{user}** gets shy around me, how cute!"
+    },
+    "slap": {
+      "description": "Slap someone.",
+      "self": "**{user}** slaps themselves.",
+      "target": "**{user}** slapped **{target}**",
+      "bot": "**{user}**, don't hit me! ;-;"
+    },
+    "sleep": {
+      "description": "Show that you are sleepy.",
+      "self": "**{user}** is sleepy and going to bed.",
+      "target": "**{user}** falls asleep next to **{target}**",
+      "bot": "**{user}** sleeps next to me, good night."
+    },
+    "stare": {
+      "description": "Stare at someone...",
+      "self": "**{user}** stares into the void.",
+      "target": "**{user}** stares at **{target}**",
+      "bot": "**{user}**, why are you looking at me like that?"
+    },
+    "tickle": {
+      "description": "Tickle someone.",
+      "self": "**{user}** tickles themselves.",
+      "target": "**{user}** tickles **{target}**",
+      "bot": "**{user}**, hahaha stop, that tickles!"
+    },
+    "clap": {
+      "description": "Applaud something or someone.",
+      "self": "**{user}** is clapping.",
+      "target": "**{user}** applauds **{target}**",
+      "bot": "**{user}**, thank you so much! n.n"
+    },
+    "blush": {
+      "description": "Blush (with or without a reason).",
+      "self": "Awww, **{user}** is blushing, I wonder why?",
+      "target": "Awww, **{target}** made **{user}** blush, how cute.",
+      "bot": "Oh, **{user}**! How dare you!"
+    },
+    "boom": {
+      "description": "BOOM! Cause an explosion.",
+      "self": "**{user}** caused an explosion.",
+      "target": "**{user}** blew up **{target}**",
+      "bot": "**{user}**, don't blow me up!"
+    },
+    "bored": {
+      "description": "Show that you are bored.",
+      "self": "**{user}** is bored.",
+      "target": "**{user}** is bored with **{target}**",
+      "bot": "**{user}** is bored... let's play something!"
+    },
+    "confused": {
+      "description": "Show that you are confused.",
+      "self": "**{user}** is confused.",
+      "target": "**{user}** is confused by **{target}**",
+      "bot": "**{user}** is confused by me... any questions?"
+    },
+    "cry": {
+      "description": "Show that you are crying.",
+      "self": "**{user}** is crying.",
+      "target": "**{user}** cries because of **{target}**",
+      "bot": "**{user}**, don't cry... ;-;"
+    },
+    "facepalm": {
+      "description": "Facepalm.",
+      "self": "**{user}** facepalms.",
+      "target": "**{user}** facepalms because of **{target}**",
+      "bot": "**{user}**, was I that bad?"
+    },
+    "happy": {
+      "description": "Show how happy you are.",
+      "self": "**{user}** is happy.",
+      "target": "**{user}** is happy with **{target}**",
+      "bot": "**{user}** is happy with me, yay!"
+    },
+    "like": {
+      "description": "Show that you like something.",
+      "self": "**{user}** gives their approval.",
+      "target": "**{user}** likes what **{target}** did",
+      "bot": "Thanks, **{user}**!"
+    },
+    "nervous": {
+      "description": "Show that you are nervous.",
+      "self": "**{user}** is nervous.",
+      "target": "**{target}** makes **{user}** nervous",
+      "bot": "**{user}** gets nervous around me..."
+    },
+    "nom": {
+      "description": "Eat something tasty.",
+      "self": "**{user}** eats something delicious.",
+      "target": "**{user}** feeds **{target}**",
+      "bot": "**{user}** feeds me, nom!"
+    },
+    "nope": {
+      "description": "Show that you dislike something.",
+      "self": "**{user}** says no.",
+      "target": "**{user}** says no to **{target}**",
+      "bot": "**{user}**, why are you saying no to me?"
+    },
+    "pout": {
+      "description": "Pout.",
+      "self": "**{user}** pouts.",
+      "target": "**{user}** pouts at **{target}**",
+      "bot": "**{user}** pouts... what did I do?"
+    },
+    "run": {
+      "description": "Run away from the situation.",
+      "self": "**{user}** runs away.",
+      "target": "**{user}** runs away from **{target}**",
+      "bot": "**{user}**, don't run away from me!"
+    },
+    "sad": {
+      "description": "Show that you are sad.",
+      "self": "**{user}** is sad.",
+      "target": "**{user}** is sad because of **{target}**",
+      "bot": "**{user}**, don't be sad, I'm here."
+    },
+    "scream": {
+      "description": "Scream Aaaaaah!",
+      "self": "**{user}** screams at the top of their lungs.",
+      "target": "**{user}** screams at **{target}**",
+      "bot": "**{user}**, don't scream at me!"
+    },
+    "shrug": {
+      "description": "Shrug.",
+      "self": "**{user}** shrugs.",
+      "target": "**{user}** shrugs at **{target}**",
+      "bot": "**{user}** shrugs..."
+    },
+    "sip": {
+      "description": "Calmly sip a drink.",
+      "self": "**{user}** calmly sips a drink.",
+      "target": "**{user}** has a drink with **{target}**",
+      "bot": "**{user}** drinks with me, cheers!"
+    },
+    "smile": {
+      "description": "Smile.",
+      "self": "**{user}** smiles.",
+      "target": "**{user}** smiles at **{target}**",
+      "bot": "**{user}** smiles at me, thanks!"
+    },
+    "smug": {
+      "description": "Look smug.",
+      "self": "**{user}** looks very smug.",
+      "target": "**{user}** acts smug in front of **{target}**",
+      "bot": "**{user}**, so proud of yourself?"
+    }
+  }
+}

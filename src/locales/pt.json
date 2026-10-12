@@ -1,0 +1,1025 @@
+{
+  "common": {
+    "supportServer": "Servidor de suporte",
+    "inviteMe": "Me convide",
+    "requestedBy": "Solicitado por: {user}",
+    "submissionReceived": "✅ Seu envio foi recebido com sucesso!",
+    "user": "Usuário"
+  },
+  "errors": {
+    "generic": "Algo deu errado. Tente novamente mais tarde. Precisa de ajuda? {support}",
+    "inappropriate": "O texto contém conteúdo inapropriado.",
+    "inappropriateName": "O nome de usuário contém conteúdo inapropriado.",
+    "maintenance": "❎ `/{command}` está em **modo de manutenção**. Tente mais tarde.",
+    "ownerOnly": "❎ Você não pode usar `/{command}`: é um comando de desenvolvedor.",
+    "nsfwOnly": "🔞 NSFW não é permitido aqui. Use este comando em um canal marcado como NSFW.",
+    "premiumOnly": "💎 Este comando é apenas **Premium**. Entre em {support} para saber mais.",
+    "userMissingPermissions": "❎ Você não tem as permissões necessárias para usar este comando: {permissions}",
+    "botMissingPermissions": "❎ Faltam permissões para mim neste canal: {permissions}",
+    "cooldown": "⏳ Aguarde `{seconds}s` antes de usar `/{command}` novamente.",
+    "blacklistedUser": "🚫 Você foi incluído na lista negra do bot.\n**Motivo:** {reason}\n**Desde:** {time}",
+    "blacklistedGuild": "🚫 Este servidor foi incluído na lista negra do bot.\n**Motivo:** {reason}\n**Desde:** {time}"
+  },
+  "permissions": {
+    "ViewChannel": "Ver canal",
+    "SendMessages": "Enviar mensagens",
+    "EmbedLinks": "Inserir links",
+    "AttachFiles": "Anexar arquivos",
+    "ManageGuild": "Gerenciar servidor",
+    "Administrator": "Administrador",
+    "ManageNicknames": "Gerenciar apelidos",
+    "ReadMessageHistory": "Ver histórico de mensagens",
+    "UseExternalEmojis": "Usar emojis externos",
+    "SendMessagesInThreads": "Enviar mensagens em tópicos",
+    "AddReactions": "Adicionar reações",
+    "ManageMessages": "Gerenciar mensagens",
+    "ManageRoles": "Gerenciar cargos",
+    "ManageChannels": "Gerenciar canais",
+    "KickMembers": "Expulsar membros",
+    "BanMembers": "Banir membros",
+    "ModerateMembers": "Castigar membros",
+    "ManageWebhooks": "Gerenciar webhooks",
+    "MentionEveryone": "Mencionar todos",
+    "UseApplicationCommands": "Usar comandos de aplicativo",
+    "CreateInstantInvite": "Criar convite",
+    "Connect": "Conectar",
+    "Speak": "Falar"
+  },
+  "events": {
+    "afk": {
+      "welcomeBack": "Bem-vindo de volta, {user}! Seu status AFK foi removido.\nAusente desde {since}",
+      "userIsAfk": "{user} está AFK.\n**Motivo:** {reason}\nAusente desde {since}"
+    },
+    "mention": {
+      "text": "> Agora o **{bot}** funciona com **comandos slash**. Digite `/help` para ver tudo o que eu faço!"
+    },
+    "pingJoin": "{member} entrou no servidor! Bem-vindo(a) a **{server}**!",
+    "welcome": {
+      "cardTitle": "Bem-vindo",
+      "cardMessage": "Bem-vindo ao servidor",
+      "defaultMessage": "Bem-vindo(a), {member}! Aproveite sua estadia em **{server}**."
+    }
+  },
+  "help": {
+    "title": "Ajuda",
+    "intro": "Tenho **{count}** comandos. Escolha uma categoria no menu.",
+    "placeholder": "Escolha uma categoria",
+    "categories": {
+      "info": "Informação",
+      "utility": "Utilidades",
+      "fun": "Diversão",
+      "games": "Minijogos",
+      "images": "Imagens",
+      "search": "Pesquisa",
+      "server": "Servidor",
+      "user": "Usuário",
+      "settings": "Configurações",
+      "interaction": "Interação"
+    }
+  },
+  "userinfo": {
+    "created": "Conta criada",
+    "joined": "Entrou no servidor",
+    "boosting": "Impulsionando desde",
+    "bot": "Bot",
+    "badges": "Insígnias",
+    "roles": "Cargos ({count})",
+    "avatarOf": "Avatar de {user}",
+    "avatarHint": "Baixe ou escolha um tamanho.",
+    "chooseSize": "Escolha o tamanho",
+    "bannerOf": "Banner de {user}",
+    "permissionsOf": "Permissões de {user} neste canal",
+    "noBanner": "Este usuário não tem banner.",
+    "notInServer": "Esse usuário não está neste servidor."
+  },
+  "context": {
+    "translate": {
+      "empty": "Não há texto para traduzir.",
+      "tooLong": "O texto é muito longo (máximo {max} caracteres)."
+    },
+    "report": {
+      "title": "Denunciar um usuário",
+      "reason": "Motivo da denúncia"
+    }
+  },
+  "server": {
+    "owner": "Dono",
+    "locale": "Região",
+    "created": "Criado",
+    "members": "Membros",
+    "channels": "Canais",
+    "text": "Texto",
+    "voice": "Voz",
+    "threads": "Tópicos",
+    "categories": "Categorias",
+    "news": "Anúncios",
+    "stage": "Palco",
+    "emojis": "Emojis e stickers",
+    "animated": "Animados",
+    "static": "Estáticos",
+    "details": "Detalhes",
+    "verification": "Verificação",
+    "boosts": "Impulsos",
+    "tier": "nível",
+    "roles": "Cargos",
+    "levels": {
+      "none": "Nenhuma",
+      "low": "Baixa",
+      "medium": "Média",
+      "high": "(╯°□°）╯︵ ┻━┻",
+      "veryHigh": "┻━┻ミヽ(ಠ益ಠ)ノ彡┻━┻"
+    },
+    "noImage": "Este servidor não tem uma imagem desse tipo.",
+    "membersTitle": "Membros do servidor",
+    "firstJoined": "Primeiro a entrar",
+    "lastJoined": "Último a entrar",
+    "oldestAccount": "Conta mais antiga",
+    "newestAccount": "Conta mais recente",
+    "notTextChannel": "Esse canal não é de texto.",
+    "noMessages": "Nenhuma mensagem encontrada nesse canal.",
+    "firstMessage": "Primeira mensagem em #{channel}",
+    "sent": "Enviada",
+    "type": "Tipo",
+    "category": "Categoria",
+    "topic": "Tópico",
+    "slowmode": "Modo lento",
+    "color": "Cor",
+    "hoisted": "Separado",
+    "mentionable": "Mencionável",
+    "permissions": "Permissões",
+    "inviteInvalid": "Esse convite é inválido ou expirou.",
+    "inviter": "Quem convidou",
+    "channel": "Canal",
+    "expires": "Expira"
+  },
+  "search": {
+    "notFound": "Nenhum resultado para \"{query}\".",
+    "apiError": "Não foi possível concluir a pesquisa. Tente mais tarde.",
+    "pokemon": {
+      "baseExp": "Experiência base",
+      "weight": "Peso",
+      "height": "Altura",
+      "types": "Tipos",
+      "abilities": "Habilidades"
+    },
+    "urban": {
+      "definition": "Definição",
+      "example": "Exemplo",
+      "ratings": "Avaliações"
+    },
+    "weather": {
+      "title": "Clima em {place}",
+      "temperature": "Temperatura",
+      "feelsLike": "Sensação térmica",
+      "wind": "Vento",
+      "humidity": "Umidade",
+      "observed": "Observado"
+    },
+    "anime": {
+      "aired": "Estreia",
+      "japanese": "Título japonês",
+      "status": "Status",
+      "rating": "Nota (Kitsu)",
+      "episodes": "Episódios",
+      "type": "Tipo"
+    }
+  },
+  "welcome": {
+    "panelTitle": "Configuração de boas-vindas",
+    "panelBody": "> **Personalize o design, as cores e as mensagens; use Pré-visualizar para conferir o resultado.**\nMarcadores: `[username] [servername] [mention] [membercount] [inviter] [invitername] [invitecount] [accountcreated]`",
+    "setupChannel": "Canal",
+    "setupMessage": "Mensagem",
+    "setupAppearance": "Cores e fundo",
+    "previewButton": "Pré-visualizar",
+    "circleOn": "Avatar circular",
+    "circleOff": "Avatar quadrado",
+    "deletePlaceholder": "Remover uma configuração",
+    "delete": {
+      "color": "Remover cor",
+      "message": "Remover mensagem",
+      "cardMessage": "Redefinir texto do cartão",
+      "cardType": "Redefinir título do cartão",
+      "nameColor": "Redefinir cor do nome",
+      "typeColor": "Redefinir cor do título",
+      "messageColor": "Redefinir cor do texto",
+      "channel": "Remover canal",
+      "background": "Remover fundo"
+    },
+    "deleted": {
+      "color": "✅ Cor de boas-vindas removida.",
+      "message": "✅ Mensagem de boas-vindas removida.",
+      "cardMessage": "Texto do cartão redefinido.",
+      "cardType": "Título do cartão redefinido.",
+      "nameColor": "Cor do nome redefinida.",
+      "typeColor": "Cor do título redefinida.",
+      "messageColor": "Cor do texto redefinida.",
+      "channel": "✅ Canal de boas-vindas removido.",
+      "background": "✅ Fundo de boas-vindas removido."
+    },
+    "stylePlaceholder": "Escolha um design para o cartão",
+    "styles": {
+      "minimal": "Minimal",
+      "panorama": "Panorama"
+    },
+    "status": {
+      "style": "Design",
+      "channel": "Canal de boas-vindas",
+      "background": "Fundo",
+      "avatar": "Avatar",
+      "cardText": "Texto do cartão",
+      "discordMessage": "Mensagem do Discord",
+      "notSet": "Não definido",
+      "custom": "Personalizado",
+      "default": "Padrão"
+    },
+    "circleEnabled": "Avatar circular ativado.",
+    "circleDisabled": "Avatar circular desativado.",
+    "invalidSetting": "Essa opção de configuração é inválida.",
+    "channelPlaceholder": "Selecione o canal de boas-vindas",
+    "invalidImage": "❌ URL inválida. Deve começar com http(s):// e terminar em .png ou .jpg.",
+    "invalidColor": "❌ Cor hexadecimal inválida (exemplo: #ff8800).",
+    "saved": {
+      "background": "✅ Fundo de boas-vindas salvo.",
+      "color": "✅ Cor de boas-vindas salva.",
+      "message": "✅ Mensagem de boas-vindas salva.",
+      "channel": "✅ Canal de boas-vindas definido: {channel}",
+      "style": "Design do cartão atualizado.",
+      "updated": "Configurações de boas-vindas salvas."
+    },
+    "modal": {
+      "background": {
+        "title": "Fundo de boas-vindas",
+        "label": "Link da imagem",
+        "placeholder": "https://… terminando em .png ou .jpg"
+      },
+      "color": {
+        "title": "Cor de boas-vindas",
+        "label": "Cor hexadecimal",
+        "placeholder": "#0099ff"
+      },
+      "message": {
+        "title": "Mensagem de boas-vindas",
+        "label": "Mensagem",
+        "placeholder": "Olá [mention], bem-vindo a [servername]!"
+      },
+      "text": {
+        "title": "Personalizar textos",
+        "type": "Título do cartão",
+        "typePlaceholder": "Bem-vindo",
+        "cardMessage": "Texto no cartão",
+        "cardMessagePlaceholder": "Bem-vindo ao servidor",
+        "discordMessage": "Mensagem enviada no Discord",
+        "discordMessagePlaceholder": "Bem-vindo [mention] a [servername]!"
+      },
+      "appearance": {
+        "title": "Personalizar aparência",
+        "background": "URL do fundo",
+        "backgroundPlaceholder": "https://exemplo.com/fundo.png",
+        "nameColor": "Cor do nome",
+        "nameColorPlaceholder": "#00FF9E",
+        "typeColor": "Cor do título",
+        "typeColorPlaceholder": "#FFFFFF",
+        "messageColor": "Cor do texto",
+        "messageColorPlaceholder": "#FFFFFF"
+      }
+    }
+  },
+  "commands": {
+    "options": {
+      "target": "O usuário alvo.",
+      "targetOptional": "O usuário alvo (opcional)."
+    },
+    "ping": {
+      "description": "Veja a latência do bot e da API do Discord.",
+      "title": "Latência e API",
+      "latency": "Latência",
+      "api": "Latência da API",
+      "uptime": "Tempo ativo"
+    },
+    "invite": {
+      "description": "Obtenha o link de convite do bot.",
+      "title": "Me convide",
+      "body": "Adicione o bot ao seu servidor. [Clique aqui]({url})"
+    },
+    "support": {
+      "name": "suporte",
+      "description": "Obtenha o link do servidor de suporte.",
+      "whatIs": "O que é suporte?",
+      "whatIsBody": "O suporte técnico ajuda você a usar o bot. Entre para reportar erros, pedir recursos ou tirar dúvidas.",
+      "body": "Você pode entrar no meu servidor de suporte aqui:\n{url}"
+    },
+    "help": {
+      "description": "Explore todos os comandos por categoria."
+    },
+    "bot": {
+      "description": "Comandos relacionados ao bot.",
+      "info": "Mostra informações do bot.",
+      "privacy": "Leia a política de privacidade.",
+      "bug": "Reporte um erro.",
+      "suggestion": "Envie uma sugestão.",
+      "servers": "Servidores",
+      "users": "Usuários",
+      "uptime": "Tempo ativo",
+      "memory": "Memória",
+      "versions": "Versões",
+      "system": "Sistema",
+      "bugTitle": "Relatório de erro",
+      "bugCommand": "Qual comando?",
+      "bugDescription": "Descreva o problema",
+      "suggestionTitle": "Sugestão",
+      "suggestionLabel": "Descreva sua sugestão",
+      "suggestionHint": "Sugestões sem sentido podem resultar em sanções.",
+      "privacyPages": {
+        "intro": {
+          "title": "Política de privacidade",
+          "body": "> Este documento descreve as informações coletadas pelo bot e como as usamos.\n> Ao usar o bot você aceita esta política."
+        },
+        "legal": {
+          "title": "Ação legal",
+          "body": "> O proprietário pode usar dados pessoais em processos legais em caso de uso indevido do bot.\n> Ele pode ser obrigado a divulgar dados a pedido das autoridades."
+        },
+        "minors": {
+          "title": "Menores",
+          "body": "> Não coletamos intencionalmente informações de menores de 13 anos.\n> Se acredita que um menor forneceu dados, fale conosco para removê-los."
+        },
+        "usage": {
+          "title": "Uso das informações",
+          "body": "> Usamos as informações para:\n> - Fornecer, operar e manter o bot\n> - Personalizá-lo e melhorá-lo\n> - Analisar padrões de uso\n> - Desenvolver novos recursos"
+        },
+        "rights": {
+          "title": "Seus direitos",
+          "body": "> Você pode retirar seu consentimento a qualquer momento.\n> Você pode pedir a correção ou exclusão dos seus dados.\n> Você pode reclamar à sua autoridade de proteção de dados."
+        },
+        "changes": {
+          "title": "Alterações",
+          "body": "> Podemos atualizar esta política a qualquer momento. Consulte este comando com frequência.\n> Se uma mudança exigir seu consentimento, pediremos novamente."
+        }
+      }
+    },
+    "language": {
+      "description": "Altere o idioma do bot neste servidor ou para você.",
+      "server": "Define o idioma do servidor (Gerenciar servidor).",
+      "me": "Define seu idioma pessoal.",
+      "reset": "Volta ao idioma padrão.",
+      "view": "Mostra o idioma ativo.",
+      "options": {
+        "language": "O idioma a usar.",
+        "scope": "O que redefinir."
+      },
+      "serverSet": "Idioma do servidor definido como {language}.",
+      "userSet": "Seu idioma foi definido como {language}.",
+      "resetDone": "Preferência removida. Idioma padrão: {default}.",
+      "notSet": "não definido",
+      "current": "**Ativo:** {active}\n**Sua preferência:** {user}\n**Servidor:** {server}\n**Padrão:** {default}\n_Sua preferência tem prioridade sobre a do servidor._"
+    },
+    "afk": {
+      "description": "Fique ausente (AFK) com um motivo opcional.",
+      "options": {
+        "reason": "O motivo da sua ausência."
+      },
+      "already": "Você já está AFK!",
+      "noReason": "Nenhum motivo informado",
+      "set": "Seu AFK foi configurado.",
+      "description_set": "{user} agora está AFK!\n**Motivo:** {reason}",
+      "footer": "Avisarei quem mencionar você"
+    },
+    "say": {
+      "description": "Envia uma mensagem através do bot.",
+      "options": {
+        "text": "O texto que deseja enviar."
+      },
+      "sent": "Sua mensagem foi enviada!"
+    },
+    "translate": {
+      "name": "tradutor",
+      "description": "Traduza um texto para outro idioma.",
+      "options": {
+        "text": "O texto a traduzir.",
+        "language": "O idioma de destino."
+      },
+      "failed": "Não foi possível traduzir o texto.",
+      "original": "Original",
+      "translated": "Tradução ({language})",
+      "footer": "Com tecnologia Google Tradutor"
+    },
+    "8ball": {
+      "description": "Pergunte à bola 8 mágica.",
+      "options": {
+        "question": "Sua pergunta."
+      },
+      "question": "Pergunta:",
+      "answer": "Resposta:",
+      "answers": [
+        "É certo.",
+        "Sem dúvida.",
+        "Sim, definitivamente.",
+        "Pode contar com isso.",
+        "Como eu vejo, sim.",
+        "Provavelmente.",
+        "As perspectivas são boas.",
+        "Sim.",
+        "Os sinais apontam que sim.",
+        "Resposta nebulosa, tente de novo.",
+        "Pergunte mais tarde.",
+        "Melhor não te dizer agora.",
+        "Não posso prever agora.",
+        "Concentre-se e pergunte de novo.",
+        "Não conte com isso.",
+        "Minha resposta é não.",
+        "Minhas fontes dizem que não.",
+        "As perspectivas não são boas.",
+        "Muito duvidoso.",
+        "Claro que não! >.<"
+      ]
+    },
+    "roll": {
+      "description": "Lance um dado.",
+      "rolled": "**{user} lançou um dado**"
+    },
+    "reverse": {
+      "description": "Repete sua mensagem ao contrário.",
+      "options": {
+        "text": "Texto a inverter."
+      }
+    },
+    "ascii": {
+      "description": "Transforme seu texto em arte ASCII.",
+      "options": {
+        "text": "Texto (máximo 30 caracteres)."
+      },
+      "unsupported": "O texto contém caracteres não suportados."
+    },
+    "bigtext": {
+      "description": "Transforme seu texto em indicadores regionais.",
+      "options": {
+        "text": "Texto (máximo 40 caracteres)."
+      }
+    },
+    "banana": {
+      "description": "Quanto mede a sua banana?",
+      "title": "Medidor de banana",
+      "question": "🍌 **{user}**, é sério que sua banana mede isso?",
+      "measures": "A banana de **{user}** mede:"
+    },
+    "fortune": {
+      "name": "sorte",
+      "description": "Abra um biscoito da sorte.",
+      "says": "Seu biscoito da sorte diz:",
+      "forecast": "Suas previsões:",
+      "love": "Amor",
+      "health": "Saúde",
+      "money": "Dinheiro",
+      "luck": "Sorte",
+      "prosperity": "Prosperidade",
+      "messages": [
+        "Você sabe exatamente o que quer. Trabalhe nisso e faça acontecer.",
+        "Hoje seus dons especiais serão reconhecidos e você será feliz por muitas horas.",
+        "A felicidade espera por você. Não esqueça de agarrá-la e mantê-la com você.",
+        "O céu será o seu limite: grandes coisas vão acontecer.",
+        "Concentre-se no que quer alcançar e você vencerá. Não esqueça.",
+        "Você terá um dia de alegrias e bons momentos. Aproveite como nunca.",
+        "Com integridade e constância, seu crédito continua crescendo.",
+        "Estenda a mão hoje para ajudar alguém. Isso voltará para você.",
+        "Um pequeno passo hoje é um grande salto amanhã.",
+        "As boas notícias estão mais perto do que você imagina.",
+        "Sua paciência está prestes a ser recompensada.",
+        "Um convite inesperado vai mudar sua semana.",
+        "Confie nos seus instintos: eles sabem mais do que você pensa.",
+        "A melhor hora para começar é agora.",
+        "Alguém está pensando em você agora mesmo.",
+        "A sorte favorece os corajosos. Seja corajoso hoje.",
+        "Uma nova amizade trará muita alegria.",
+        "Não tenha pressa: as melhores coisas levam tempo.",
+        "Sua gentileza abrirá uma porta importante.",
+        "Hoje é um bom dia para perdoar e seguir em frente."
+      ]
+    },
+    "meter": {
+      "description": "Medidores aleatórios divertidos.",
+      "gay": {
+        "description": "Medidor de gay.",
+        "title": "Medidor de gay",
+        "question": ":rainbow_flag: **{user}**, você é gay mesmo?",
+        "result": "A porcentagem de gay é:"
+      },
+      "simp": {
+        "description": "Medidor de simp.",
+        "title": "Medidor de simp",
+        "question": "💘 **{user}**, o quanto você é simp?",
+        "result": "A porcentagem de simp é:"
+      }
+    },
+    "ship": {
+      "description": "Veja a compatibilidade amorosa entre dois usuários.",
+      "options": {
+        "user1": "Primeiro usuário.",
+        "user2": "Segundo usuário (padrão: você)."
+      },
+      "title": "Compatibilidade amorosa",
+      "name": "Nome do ship",
+      "compatibility": "Compatibilidade",
+      "messages": {
+        "10": "É mais provável que fiquem só como amigos.",
+        "20": "Podem tentar, mas talvez não seja a hora certa.",
+        "30": "Acho que se dariam melhor com outra pessoa.",
+        "40": "Parece que vocês se gostam muito!",
+        "50": "Há potencial para uma grande história de amor aqui!",
+        "60": "Existe uma química. Por que não tentar?",
+        "70": "Ai, olha só, vocês se gostam mesmo.",
+        "80": "Definitivamente o casal mais fofo.",
+        "90": "Vocês deveriam ficar juntos com certeza.",
+        "100": "Não poderia ter feito um ship melhor que este."
+      }
+    },
+    "animal": {
+      "description": "Obtenha um fato aleatório sobre um animal.",
+      "options": {
+        "type": "Escolha um animal."
+      },
+      "failed": "Não foi possível obter o dado do animal. Tente mais tarde.",
+      "title": "Curiosidade sobre {animal}",
+      "names": {
+        "dog": "cães",
+        "cat": "gatos",
+        "panda": "pandas",
+        "fox": "raposas",
+        "bird": "pássaros",
+        "koala": "coalas"
+      }
+    },
+    "games": {
+      "description": "Jogue no servidor.",
+      "slots": "Jogue no caça-níquel.",
+      "2048": "Jogue 2048.",
+      "hangman": "Adivinhe a palavra antes que a forca se complete.",
+      "mines": "Jogue campo minado.",
+      "findemoji": "Encontre os emojis escondidos.",
+      "flood": "Jogue Flood.",
+      "snake": "Jogue o clássico Snake.",
+      "rps": "Pedra, papel ou tesoura contra alguém.",
+      "tictactoe": "Jogo da velha contra alguém.",
+      "connect4": "Ligue 4 contra alguém.",
+      "options": {
+        "opponent": "Seu oponente."
+      },
+      "hangmanWin": "Você ganhou! A palavra era **{word}**",
+      "hangmanLose": "Você perdeu! A palavra era **{word}**.",
+      "invalidOpponent": "Você não pode jogar contra si mesmo nem contra um bot.",
+      "playerOnly": "Somente {player} pode usar estes botões."
+    },
+    "filters": {
+      "name": "filtros",
+      "description": "Aplique um filtro ao avatar de um usuário.",
+      "options": {
+        "filter": "O filtro a aplicar."
+      }
+    },
+    "image": {
+      "description": "Comandos de manipulação de imagens.",
+      "failed": "Não foi possível gerar a imagem. Tente mais tarde.",
+      "textBlocked": "O texto não pode conter palavras ofensivas nem links (administradores são isentos).",
+      "textTooLong": "O texto é muito longo (máximo {max} caracteres).",
+      "options": {
+        "textOption": "Escolha um modelo.",
+        "message": "O texto a escrever."
+      },
+      "effects": {
+        "delete": "Meme de deletar.",
+        "wanted": "Cartaz de procurado.",
+        "trash": "Meme de lixo.",
+        "triggered": "Gif de triggered.",
+        "rip": "Lápide.",
+        "bobross": "Pintura do Bob Ross.",
+        "facepalm": "Facepalm.",
+        "poutine": "Poutine.",
+        "ad": "Anúncio.",
+        "mms": "M&M's.",
+        "jail": "Atrás das grades.",
+        "stonk": "Stonks.",
+        "notstonk": "Not stonks.",
+        "confusedstonk": "Stonks confuso.",
+        "clown": "Palhaço.",
+        "simpcard": "Carteirinha de simp.",
+        "plsbro": "Please bro.",
+        "text": "Escreva texto sobre uma imagem."
+      }
+    },
+    "search": {
+      "name": "buscar",
+      "description": "Comandos de pesquisa para obter informações.",
+      "lyrics": "Obtenha a letra de uma música.",
+      "pokemon": "Veja os status de um Pokémon.",
+      "urban": "Defina um termo no Urban Dictionary.",
+      "weather": "Consulte a previsão do tempo.",
+      "anime": "Informações de um anime (Kitsu).",
+      "wikipedia": "Pesquise na Wikipedia.",
+      "options": {
+        "lyrics": "Título (funciona melhor \"artista - música\").",
+        "pokemon": "Nome ou ID do Pokémon.",
+        "urban": "O termo a pesquisar.",
+        "weather": "Um local.",
+        "anime": "O nome do anime.",
+        "wikipedia": "O que pesquisar."
+      }
+    },
+    "server": {
+      "description": "Obtenha informações e recursos do servidor.",
+      "info": "Informações detalhadas do servidor.",
+      "images": "Banner, ícone ou splash do servidor.",
+      "members": "Membros mais antigos e recentes.",
+      "firstMessage": "Obtenha a primeira mensagem de um canal.",
+      "channelInfo": "Informações de um canal.",
+      "roleInfo": "Informações de um cargo.",
+      "inviteInfo": "Informações de um convite.",
+      "options": {
+        "imageType": "Tipo de imagem.",
+        "channel": "Um canal.",
+        "role": "Um cargo.",
+        "invite": "Código do convite (exemplo: dGB9fJ3azu)."
+      }
+    },
+    "user": {
+      "description": "Comandos de informação de usuários do Discord.",
+      "info": "Informações detalhadas de um usuário.",
+      "avatar": "Obtenha o avatar de um usuário.",
+      "banner": "Obtenha o banner de um usuário.",
+      "checkperms": "Verifique as permissões de um usuário neste canal."
+    },
+    "welcome": {
+      "description": "Configure o sistema de boas-vindas.",
+      "setup": "Abre o painel de configuração de boas-vindas.",
+      "pingJoin": "Menciona novos membros e apaga a menção na hora.",
+      "options": {
+        "enabled": "Ativar ou desativar.",
+        "channel": "Canal da menção (padrão: o do sistema).",
+        "message": "Mensagem personalizada."
+      },
+      "pingJoinOn": "Ping ao entrar ativado.",
+      "pingJoinOff": "Ping ao entrar desativado."
+    },
+    "redeem": {
+      "description": "Resgate um código premium.",
+      "options": {
+        "code": "O código a resgatar."
+      },
+      "already": "Você já tem um Premium ativo.",
+      "invalid": "Esse código não é válido.",
+      "success": "Você resgatou o Premium com sucesso! Expira {expires}."
+    },
+    "premium": {
+      "description": "Veja seu status Premium.",
+      "none": "Você não tem Premium ativo. Use `/redeem` se tiver um código.",
+      "active": "Seu Premium expira {expires}.",
+      "plan": "Plano",
+      "user": "Usuário",
+      "expires": "Expira"
+    },
+    "blacklist": {
+      "description": "Gerencie a lista negra (desenvolvedores).",
+      "add": "Adiciona um usuário ou servidor à lista negra.",
+      "remove": "Remove uma entrada da lista negra.",
+      "list": "Mostra as últimas entradas.",
+      "options": {
+        "id": "ID do usuário ou servidor.",
+        "reason": "Motivo.",
+        "target": "Usuário ou servidor."
+      },
+      "invalidId": "ID inválido.",
+      "added": "{target} `{id}` adicionado à lista negra.",
+      "removed": "{target} `{id}` removido da lista negra.",
+      "notFound": "{target} `{id}` não está na lista negra."
+    },
+    "generate": {
+      "description": "Gere códigos premium (desenvolvedores).",
+      "options": {
+        "plan": "O plano.",
+        "amount": "Quantos códigos (1-25)."
+      },
+      "title": "Gerar códigos",
+      "generated": "• Gerados [{count}]",
+      "plan": "• Plano",
+      "expires": "• Expira",
+      "footer": "Use /redeem <código> para resgatar!",
+      "none": "Não foi possível gerar nenhum código."
+    },
+    "badge": {
+      "description": "Gerencie as insígnias dos usuários (desenvolvedores).",
+      "options": {
+        "badge": "A insígnia.",
+        "enabled": "Adicionar (true) ou remover (false)."
+      },
+      "added": "Insígnia `{badge}` adicionada a {user}.",
+      "removed": "Insígnia `{badge}` removida de {user}.",
+      "nothing": "Nada para alterar."
+    },
+    "hoststats": {
+      "description": "Estatísticas do host e do processo (desenvolvedores)."
+    },
+    "servers": {
+      "description": "Listas de servidores (desenvolvedores).",
+      "top": "Top 20 servidores por membros.",
+      "list": "Lista completa em um .txt."
+    },
+    "restart": {
+      "description": "Reinicia o bot (desenvolvedores).",
+      "restarting": "🤖 O bot está reiniciando…"
+    },
+    "setavatar": {
+      "description": "Altera o avatar do bot (desenvolvedores).",
+      "options": {
+        "link": "Link da imagem."
+      },
+      "done": "Avatar atualizado.",
+      "failed": "Não foi possível atualizar o avatar: {error}"
+    },
+    "screenshot": {
+      "description": "Captura de tela de um site (desenvolvedores).",
+      "options": {
+        "url": "A URL."
+      },
+      "invalid": "URL inválida.",
+      "failed": "Não foi possível tirar a captura."
+    },
+    "eval": {
+      "description": "Executa código (desenvolvedores, desativado por padrão)."
+    },
+    "calculator": {
+      "name": "calculadora",
+      "description": "Abre uma calculadora com botões.",
+      "title": "Calculadora",
+      "invalid": "Expressão inválida",
+      "divisionByZero": "Não é possível dividir por zero",
+      "onlyOwner": "Apenas {user} pode usar estes botões!"
+    },
+    "interact": {
+      "name": "interagir",
+      "description": "Interaja com outros usuários (abraçar, carinho, beijar…)."
+    },
+    "react": {
+      "name": "reagir",
+      "description": "Expresse uma reação com um GIF (chorar, feliz, corar…)."
+    }
+  },
+  "reactions": {
+    "apiError": "Não foi possível obter um GIF agora. Tente novamente mais tarde.",
+    "counter": {
+      "hug": "**{target}** recebeu **{count}** abraço(s) no total.",
+      "kiss": "**{target}** recebeu **{count}** beijo(s) no total.",
+      "pat": "**{target}** recebeu **{count}** carinho(s) no total.",
+      "slap": "**{target}** recebeu **{count}** tapa(s) no total."
+    },
+    "userOption": "Um usuário (opcional).",
+    "angry": {
+      "description": "Mostre que você está com raiva.",
+      "self": "**{user}** está muito irritado(a) >-<",
+      "target": "**{user}** ficou com raiva de **{target}**",
+      "bot": "**{user}**, não fique bravo(a) comigo. u.u"
+    },
+    "baka": {
+      "description": "Chame alguém de baka (idiota).",
+      "self": "**{user}** se chama de baka... que fofo!",
+      "target": "**{user}** chamou **{target}** de baka",
+      "bot": "**{user}**, o baka aqui é você! >.<"
+    },
+    "bite": {
+      "description": "Morda alguém, nhac nhac~",
+      "self": "Vou te morder **{user}**, você é tão doce...",
+      "target": "**{user}** mordeu **{target}**",
+      "bot": "**{user}**, não me morda..."
+    },
+    "coffee": {
+      "description": "Tome uma xícara de café.",
+      "self": "**{user}** curte um café.",
+      "target": "**{user}** paga um café para **{target}**",
+      "bot": "**{user}** me paga um café, obrigada!"
+    },
+    "cuddle": {
+      "description": "Aconchegue-se com alguém.",
+      "self": "**{user}** quer um aconchego... vem, eu te abraço.",
+      "target": "**{user}** se aconchega com **{target}**",
+      "bot": "**{user}** se aconchega comigo, que fofo! >.<"
+    },
+    "dance": {
+      "description": "Dance sozinho(a) ou com alguém.",
+      "self": "**{user}** está dançando.",
+      "target": "**{user}** dança com **{target}**",
+      "bot": "**{user}** dança comigo, vamos!"
+    },
+    "handhold": {
+      "description": "Segure a mão de alguém.",
+      "self": "**{user}** procura uma mão para segurar... pegue a minha.",
+      "target": "**{user}** segura a mão de **{target}**",
+      "bot": "**{user}** segura minha mão, obrigada!"
+    },
+    "hi": {
+      "description": "Cumprimente todos ou alguém.",
+      "self": "**{user}** cumprimenta a todos.",
+      "target": "**{user}** cumprimenta **{target}**",
+      "bot": "Olá **{user}**!"
+    },
+    "highfive": {
+      "description": "Bata aqui!",
+      "self": "**{user}** bate palma no ar... deixa eu bater com você!",
+      "target": "**{user}** bate aqui com **{target}**",
+      "bot": "Bate aqui, **{user}**!"
+    },
+    "hug": {
+      "description": "Dê um abraço em alguém.",
+      "self": "Aqui vão abraços para você, **{user}**",
+      "target": "**{user}** abraçou **{target}**",
+      "bot": "**{user}** me abraça, obrigada!"
+    },
+    "kiss": {
+      "description": "Dê um beijo em alguém.",
+      "self": "**{user}** manda um beijo ao ar.",
+      "target": "**{user}** beijou **{target}**",
+      "bot": "**{user}**, que vergonha! >///<"
+    },
+    "laugh": {
+      "description": "Ria de algo ou de alguém.",
+      "self": "**{user}** está rindo.",
+      "target": "**{user}** ri de **{target}**",
+      "bot": "**{user}** ri de mim... ;-;"
+    },
+    "lick": {
+      "description": "Lamba alguém.",
+      "self": "**{user}** se lambe... que estranho.",
+      "target": "**{user}** lambeu **{target}**",
+      "bot": "**{user}**, não me lamba!"
+    },
+    "pat": {
+      "description": "Faça carinho em alguém.",
+      "self": "**{user}** faz carinho na própria cabeça.",
+      "target": "**{user}** faz carinho em **{target}**",
+      "bot": "**{user}** me faz carinho, nyaa~!"
+    },
+    "poke": {
+      "description": "Cutuque alguém.",
+      "self": "**{user}** se cutuca.",
+      "target": "**{user}** cutuca **{target}**",
+      "bot": "**{user}**, não me cutuque!"
+    },
+    "punch": {
+      "description": "Dê um soco em alguém D':",
+      "self": "**{user}** dá um soco em si mesmo(a)... ai!",
+      "target": "**{user}** deu um soco em **{target}**",
+      "bot": "**{user}**, não me bata! ;-;"
+    },
+    "scared": {
+      "description": "Mostre que você está com medo.",
+      "self": "**{user}** está com muito medo.",
+      "target": "**{user}** tem medo de **{target}**",
+      "bot": "**{user}**, não tenha medo, sou boazinha."
+    },
+    "shy": {
+      "description": "Mostre que você está tímido(a).",
+      "self": "**{user}** fica tímido(a).",
+      "target": "**{user}** fica tímido(a) diante de **{target}**",
+      "bot": "**{user}** fica tímido(a) comigo, que fofo!"
+    },
+    "slap": {
+      "description": "Dê um tapa em alguém.",
+      "self": "**{user}** dá um tapa em si mesmo(a).",
+      "target": "**{user}** deu um tapa em **{target}**",
+      "bot": "**{user}**, não me bata! ;-;"
+    },
+    "sleep": {
+      "description": "Mostre que você está com sono.",
+      "self": "**{user}** está com sono e vai dormir.",
+      "target": "**{user}** dorme ao lado de **{target}**",
+      "bot": "**{user}** dorme ao meu lado, boa noite."
+    },
+    "stare": {
+      "description": "Encare alguém...",
+      "self": "**{user}** encara o vazio.",
+      "target": "**{user}** encara **{target}**",
+      "bot": "**{user}**, por que está me olhando assim?"
+    },
+    "tickle": {
+      "description": "Faça cócegas em alguém.",
+      "self": "**{user}** faz cócegas em si mesmo(a).",
+      "target": "**{user}** faz cócegas em **{target}**",
+      "bot": "**{user}**, hahaha para, isso faz cócegas!"
+    },
+    "clap": {
+      "description": "Aplauda algo ou alguém.",
+      "self": "**{user}** está aplaudindo.",
+      "target": "**{user}** aplaude **{target}**",
+      "bot": "**{user}**, muito obrigada! n.n"
+    },
+    "blush": {
+      "description": "Fique vermelho(a) (com ou sem motivo).",
+      "self": "Awww, **{user}** está corando, será por quê?",
+      "target": "Awww, **{target}** fez **{user}** corar, que fofo.",
+      "bot": "Ai, **{user}**! Como você ousa!"
+    },
+    "boom": {
+      "description": "BOOM! Cause uma explosão.",
+      "self": "**{user}** causou uma explosão.",
+      "target": "**{user}** explodiu **{target}**",
+      "bot": "**{user}**, não me exploda!"
+    },
+    "bored": {
+      "description": "Mostre que você está entediado(a).",
+      "self": "**{user}** está entediado(a).",
+      "target": "**{user}** está entediado(a) com **{target}**",
+      "bot": "**{user}** está entediado(a)... vamos jogar algo!"
+    },
+    "confused": {
+      "description": "Mostre que você está confuso(a).",
+      "self": "**{user}** está confuso(a).",
+      "target": "**{user}** está confuso(a) por causa de **{target}**",
+      "bot": "**{user}** está confuso(a) comigo... alguma dúvida?"
+    },
+    "cry": {
+      "description": "Mostre que você está chorando.",
+      "self": "**{user}** está chorando.",
+      "target": "**{user}** chora por causa de **{target}**",
+      "bot": "**{user}**, não chore... ;-;"
+    },
+    "facepalm": {
+      "description": "Faça um facepalm.",
+      "self": "**{user}** faz um facepalm.",
+      "target": "**{user}** faz facepalm por causa de **{target}**",
+      "bot": "**{user}**, fui tão mal assim?"
+    },
+    "happy": {
+      "description": "Mostre sua felicidade.",
+      "self": "**{user}** está feliz.",
+      "target": "**{user}** está feliz com **{target}**",
+      "bot": "**{user}** está feliz comigo, yay!"
+    },
+    "like": {
+      "description": "Mostre que você gostou de algo.",
+      "self": "**{user}** dá sua aprovação.",
+      "target": "**{user}** gostou do que **{target}** fez",
+      "bot": "Obrigada, **{user}**!"
+    },
+    "nervous": {
+      "description": "Mostre que você está nervoso(a).",
+      "self": "**{user}** está nervoso(a).",
+      "target": "**{target}** deixa **{user}** nervoso(a)",
+      "bot": "**{user}** fica nervoso(a) comigo..."
+    },
+    "nom": {
+      "description": "Coma algo gostoso.",
+      "self": "**{user}** come algo delicioso.",
+      "target": "**{user}** dá comida para **{target}**",
+      "bot": "**{user}** me dá comida, nhac!"
+    },
+    "nope": {
+      "description": "Mostre que você não gostou de algo.",
+      "self": "**{user}** diz que não.",
+      "target": "**{user}** diz não para **{target}**",
+      "bot": "**{user}**, por que está dizendo não para mim?"
+    },
+    "pout": {
+      "description": "Faça beicinho.",
+      "self": "**{user}** faz beicinho.",
+      "target": "**{user}** faz beicinho para **{target}**",
+      "bot": "**{user}** faz beicinho... o que eu fiz?"
+    },
+    "run": {
+      "description": "Corra e fuja da situação.",
+      "self": "**{user}** sai correndo.",
+      "target": "**{user}** foge de **{target}**",
+      "bot": "**{user}**, não fuja de mim!"
+    },
+    "sad": {
+      "description": "Mostre que você está triste.",
+      "self": "**{user}** está triste.",
+      "target": "**{user}** está triste por causa de **{target}**",
+      "bot": "**{user}**, não fique triste, estou aqui."
+    },
+    "scream": {
+      "description": "Grite Aaaaaah!",
+      "self": "**{user}** grita a plenos pulmões.",
+      "target": "**{user}** grita com **{target}**",
+      "bot": "**{user}**, não grite comigo!"
+    },
+    "shrug": {
+      "description": "Dê de ombros.",
+      "self": "**{user}** dá de ombros.",
+      "target": "**{user}** dá de ombros para **{target}**",
+      "bot": "**{user}** dá de ombros..."
+    },
+    "sip": {
+      "description": "Beba algo com calma.",
+      "self": "**{user}** bebe algo com calma.",
+      "target": "**{user}** bebe com **{target}**",
+      "bot": "**{user}** bebe comigo, saúde!"
+    },
+    "smile": {
+      "description": "Sorria.",
+      "self": "**{user}** sorri.",
+      "target": "**{user}** sorri para **{target}**",
+      "bot": "**{user}** sorri para mim, obrigada!"
+    },
+    "smug": {
+      "description": "Mostre-se convencido(a).",
+      "self": "**{user}** parece muito convencido(a).",
+      "target": "**{user}** se exibe diante de **{target}**",
+      "bot": "**{user}**, tão orgulhoso(a) assim?"
+    }
+  }
+}

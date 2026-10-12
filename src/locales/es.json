@@ -1,0 +1,1386 @@
+{
+  "common": {
+    "supportServer": "Servidor de soporte",
+    "inviteMe": "Invítame",
+    "requestedBy": "Solicitado por: {user}",
+    "submissionReceived": "✅ ¡Tu envío fue recibido con éxito!",
+    "user": "Usuario"
+  },
+  "errors": {
+    "generic": "Algo salió mal. Inténtalo de nuevo más tarde. ¿Necesitas ayuda? {support}",
+    "inappropriate": "El texto contiene contenido inapropiado.",
+    "inappropriateName": "El nombre de usuario contiene contenido inapropiado.",
+    "maintenance": "❎ `/{command}` está en **modo mantenimiento**. Inténtalo más tarde.",
+    "ownerOnly": "❎ No puedes usar `/{command}`: es un comando de desarrollador.",
+    "nsfwOnly": "🔞 No se permite NSFW aquí. Usa este comando en un canal marcado como NSFW.",
+    "premiumOnly": "💎 Este comando es solo **Premium**. Únete a {support} para saber más.",
+    "userMissingPermissions": "❎ Te faltan los permisos necesarios para usar este comando: {permissions}",
+    "botMissingPermissions": "❎ Me faltan permisos en este canal: {permissions}",
+    "cooldown": "⏳ Espera `{seconds}s` antes de volver a usar `/{command}`.",
+    "blacklistedUser": "🚫 Has sido incluido en la lista negra del bot.\n**Motivo:** {reason}\n**Desde:** {time}",
+    "blacklistedGuild": "🚫 Este servidor ha sido incluido en la lista negra del bot.\n**Motivo:** {reason}\n**Desde:** {time}"
+  },
+  "permissions": {
+    "ViewChannel": "Ver canal",
+    "SendMessages": "Enviar mensajes",
+    "EmbedLinks": "Insertar enlaces",
+    "AttachFiles": "Adjuntar archivos",
+    "ManageGuild": "Gestionar servidor",
+    "Administrator": "Administrador",
+    "ManageNicknames": "Gestionar apodos",
+    "ReadMessageHistory": "Ver historial de mensajes",
+    "UseExternalEmojis": "Usar emojis externos",
+    "SendMessagesInThreads": "Enviar mensajes en hilos",
+    "AddReactions": "Añadir reacciones",
+    "ManageMessages": "Gestionar mensajes",
+    "ManageRoles": "Gestionar roles",
+    "ManageChannels": "Gestionar canales",
+    "KickMembers": "Expulsar miembros",
+    "BanMembers": "Banear miembros",
+    "ModerateMembers": "Aislar miembros",
+    "ManageWebhooks": "Gestionar webhooks",
+    "MentionEveryone": "Mencionar a todos",
+    "UseApplicationCommands": "Usar comandos de aplicación",
+    "CreateInstantInvite": "Crear invitación",
+    "Connect": "Conectar",
+    "Speak": "Hablar"
+  },
+  "events": {
+    "afk": {
+      "welcomeBack": "¡Hola de nuevo, {user}! Tu estado AFK ha sido eliminado.\nAusente desde {since}",
+      "userIsAfk": "{user} se encuentra AFK.\n**Motivo:** {reason}\nAusente desde {since}"
+    },
+    "mention": {
+      "text": "> Ahora **{bot}** funciona a través de **comandos slash**. ¡Escribe `/help` para ver todo lo que puedo hacer!"
+    },
+    "pingJoin": "¡{member} se unió al servidor! Bienvenido a **{server}**.",
+    "welcome": {
+      "cardTitle": "Bienvenido",
+      "cardMessage": "Bienvenido al servidor",
+      "defaultMessage": "¡Bienvenido/a, {member}! Disfruta tu estancia en **{server}**."
+    }
+  },
+  "help": {
+    "title": "Ayuda",
+    "intro": "Tengo **{count}** comandos. Elige una categoría en el menú.",
+    "placeholder": "Elige una categoría",
+    "categories": {
+      "info": "Información",
+      "utility": "Utilidades",
+      "fun": "Diversión",
+      "games": "Minijuegos",
+      "images": "Imágenes",
+      "search": "Búsqueda",
+      "server": "Servidor",
+      "user": "Usuario",
+      "settings": "Configuración",
+      "interaction": "Interacción"
+    }
+  },
+  "userinfo": {
+    "created": "Cuenta creada",
+    "joined": "Se unió al servidor",
+    "boosting": "Mejorando desde",
+    "bot": "Bot",
+    "badges": "Insignias",
+    "roles": "Roles ({count})",
+    "avatarOf": "Avatar de {user}",
+    "avatarHint": "Descárgalo o elige un tamaño.",
+    "chooseSize": "Elige el tamaño",
+    "bannerOf": "Banner de {user}",
+    "permissionsOf": "Permisos de {user} en este canal",
+    "noBanner": "Este usuario no tiene banner.",
+    "notInServer": "Ese usuario no está en este servidor."
+  },
+  "context": {
+    "translate": {
+      "empty": "No hay texto para traducir.",
+      "tooLong": "El texto es demasiado largo (máximo {max} caracteres)."
+    },
+    "report": {
+      "title": "Reportar un usuario",
+      "reason": "Motivo del reporte"
+    }
+  },
+  "server": {
+    "owner": "Dueño",
+    "locale": "Región",
+    "created": "Creado",
+    "members": "Miembros",
+    "channels": "Canales",
+    "text": "Texto",
+    "voice": "Voz",
+    "threads": "Hilos",
+    "categories": "Categorías",
+    "news": "Anuncios",
+    "stage": "Escenario",
+    "emojis": "Emojis y stickers",
+    "animated": "Animados",
+    "static": "Estáticos",
+    "details": "Detalles",
+    "verification": "Verificación",
+    "boosts": "Mejoras",
+    "tier": "nivel",
+    "roles": "Roles",
+    "levels": {
+      "none": "Ninguno",
+      "low": "Bajo",
+      "medium": "Medio",
+      "high": "(╯°□°）╯︵ ┻━┻",
+      "veryHigh": "┻━┻ミヽ(ಠ益ಠ)ノ彡┻━┻"
+    },
+    "noImage": "Este servidor no tiene una imagen de ese tipo.",
+    "membersTitle": "Miembros del servidor",
+    "firstJoined": "Primero en unirse",
+    "lastJoined": "Último en unirse",
+    "oldestAccount": "Cuenta más antigua",
+    "newestAccount": "Cuenta más reciente",
+    "notTextChannel": "Ese canal no es un canal de texto.",
+    "noMessages": "No se encontraron mensajes en ese canal.",
+    "firstMessage": "Primer mensaje en #{channel}",
+    "sent": "Enviado",
+    "type": "Tipo",
+    "category": "Categoría",
+    "topic": "Tema",
+    "slowmode": "Modo lento",
+    "color": "Color",
+    "hoisted": "Separado",
+    "mentionable": "Mencionable",
+    "permissions": "Permisos",
+    "inviteInvalid": "Esa invitación no es válida o ha expirado.",
+    "inviter": "Invitador",
+    "channel": "Canal",
+    "expires": "Expira"
+  },
+  "search": {
+    "notFound": "No se encontraron resultados para \"{query}\".",
+    "apiError": "No se pudo completar la búsqueda. Inténtalo más tarde.",
+    "pokemon": {
+      "baseExp": "Experiencia básica",
+      "weight": "Peso",
+      "height": "Altura",
+      "types": "Tipos",
+      "abilities": "Habilidades"
+    },
+    "urban": {
+      "definition": "Definición",
+      "example": "Ejemplo",
+      "ratings": "Calificaciones"
+    },
+    "weather": {
+      "title": "Tiempo para {place}",
+      "temperature": "Temperatura",
+      "feelsLike": "Sensación térmica",
+      "wind": "Viento",
+      "humidity": "Humedad",
+      "observed": "Observado"
+    },
+    "anime": {
+      "aired": "Estrenado el",
+      "japanese": "Título japonés",
+      "status": "Estado",
+      "rating": "Clasificación (Kitsu)",
+      "episodes": "Episodios",
+      "type": "Tipo"
+    }
+  },
+  "welcome": {
+    "panelTitle": "Configuración de bienvenida",
+    "panelBody": "> **Personaliza el diseño, los colores y los mensajes; usa Vista previa para comprobar el resultado.**\nMarcadores: `[username] [servername] [mention] [membercount] [inviter] [invitername] [invitecount] [accountcreated]`",
+    "setupChannel": "Canal",
+    "setupMessage": "Mensaje",
+    "setupAppearance": "Colores y fondo",
+    "previewButton": "Vista previa",
+    "circleOn": "Avatar circular",
+    "circleOff": "Avatar cuadrado",
+    "deletePlaceholder": "Eliminar una configuración",
+    "delete": {
+      "color": "Quitar color",
+      "message": "Quitar mensaje",
+      "cardMessage": "Restablecer texto de tarjeta",
+      "cardType": "Restablecer título de tarjeta",
+      "nameColor": "Restablecer color del nombre",
+      "typeColor": "Restablecer color del título",
+      "messageColor": "Restablecer color del mensaje",
+      "channel": "Quitar canal",
+      "background": "Quitar fondo"
+    },
+    "deleted": {
+      "color": "✅ Color de bienvenida eliminado.",
+      "message": "✅ Mensaje de bienvenida eliminado.",
+      "cardMessage": "Texto de tarjeta restablecido.",
+      "cardType": "Título de tarjeta restablecido.",
+      "nameColor": "Color del nombre restablecido.",
+      "typeColor": "Color del título restablecido.",
+      "messageColor": "Color del texto restablecido.",
+      "channel": "✅ Canal de bienvenida eliminado.",
+      "background": "✅ Fondo de bienvenida eliminado."
+    },
+    "stylePlaceholder": "Elige un diseño para la tarjeta",
+    "styles": {
+      "minimal": "Minimal",
+      "panorama": "Panorama"
+    },
+    "status": {
+      "style": "Diseño",
+      "channel": "Canal de bienvenida",
+      "background": "Fondo",
+      "avatar": "Avatar",
+      "cardText": "Texto de tarjeta",
+      "discordMessage": "Mensaje de Discord",
+      "notSet": "Sin configurar",
+      "custom": "Personalizado",
+      "default": "Predeterminado"
+    },
+    "circleEnabled": "Borde circular activado.",
+    "circleDisabled": "Borde circular desactivado.",
+    "invalidSetting": "Esa opción de configuración no es válida.",
+    "channelPlaceholder": "Selecciona el canal de bienvenida",
+    "invalidImage": "❌ URL inválida. Debe empezar por http(s):// y terminar en .png o .jpg.",
+    "invalidColor": "❌ Color hexadecimal inválido (ejemplo: #ff8800).",
+    "saved": {
+      "background": "✅ Fondo de bienvenida guardado.",
+      "color": "✅ Color de bienvenida guardado.",
+      "message": "✅ Mensaje de bienvenida guardado.",
+      "channel": "✅ Canal de bienvenida establecido: {channel}",
+      "style": "Diseño de tarjeta actualizado.",
+      "updated": "Configuración de bienvenida guardada."
+    },
+    "modal": {
+      "background": {
+        "title": "Fondo de bienvenida",
+        "label": "Enlace de la imagen",
+        "placeholder": "https://… terminado en .png o .jpg"
+      },
+      "color": {
+        "title": "Color de bienvenida",
+        "label": "Color hexadecimal",
+        "placeholder": "#0099ff"
+      },
+      "message": {
+        "title": "Mensaje de bienvenida",
+        "label": "Mensaje",
+        "placeholder": "¡Hola [mention], bienvenido a [servername]!"
+      },
+      "text": {
+        "title": "Personalizar textos",
+        "type": "Título de la tarjeta",
+        "typePlaceholder": "Bienvenido",
+        "cardMessage": "Texto dentro de la tarjeta",
+        "cardMessagePlaceholder": "Bienvenido al servidor",
+        "discordMessage": "Mensaje enviado a Discord",
+        "discordMessagePlaceholder": "¡Bienvenido/a [mention] a [servername]!"
+      },
+      "appearance": {
+        "title": "Personalizar apariencia",
+        "background": "URL de fondo",
+        "backgroundPlaceholder": "https://ejemplo.com/fondo.png",
+        "nameColor": "Color del nombre",
+        "nameColorPlaceholder": "#00FF9E",
+        "typeColor": "Color del título",
+        "typeColorPlaceholder": "#FFFFFF",
+        "messageColor": "Color del texto",
+        "messageColorPlaceholder": "#FFFFFF"
+      }
+    }
+  },
+  "commands": {
+    "options": {
+      "target": "El usuario objetivo.",
+      "targetOptional": "El usuario objetivo (opcional)."
+    },
+    "ping": {
+      "description": "Obtén la latencia del bot y de la API de Discord.",
+      "title": "Latencia y API",
+      "latency": "Latencia",
+      "api": "Latencia de la API",
+      "uptime": "Tiempo activo"
+    },
+    "invite": {
+      "description": "Obtén el enlace de invitación del bot.",
+      "title": "Invítame",
+      "body": "Añade el bot a tu servidor. [Haz clic aquí]({url})"
+    },
+    "support": {
+      "name": "soporte",
+      "description": "Obtén el enlace del servidor de soporte.",
+      "whatIs": "¿Qué significa soporte?",
+      "whatIsBody": "El soporte técnico te ayuda a usar el bot. Únete para reportar errores, pedir funciones o resolver dudas.",
+      "body": "Puedes unirte a mi servidor de soporte aquí:\n{url}"
+    },
+    "help": {
+      "description": "Explora todos los comandos por categoría."
+    },
+    "bot": {
+      "description": "Comandos relacionados con el bot.",
+      "info": "Muestra información del bot.",
+      "privacy": "Lee la política de privacidad.",
+      "bug": "Reporta un error.",
+      "suggestion": "Envía una sugerencia.",
+      "servers": "Servidores",
+      "users": "Usuarios",
+      "uptime": "Tiempo activo",
+      "memory": "Memoria",
+      "versions": "Versiones",
+      "system": "Sistema",
+      "bugTitle": "Reporte de error",
+      "bugCommand": "¿Qué comando?",
+      "bugDescription": "Describe el problema",
+      "suggestionTitle": "Sugerencia",
+      "suggestionLabel": "Describe tu sugerencia",
+      "suggestionHint": "Las sugerencias sin sentido pueden resultar en sanciones.",
+      "privacyPages": {
+        "intro": {
+          "title": "Política de privacidad",
+          "body": "> Este documento describe la información que recopila el bot y cómo la usamos.\n> Al usar el bot aceptas esta política."
+        },
+        "legal": {
+          "title": "Acción legal",
+          "body": "> El propietario puede usar los datos personales en procesos legales por uso indebido del bot.\n> Puede ser obligado a revelar datos por solicitud de las autoridades."
+        },
+        "minors": {
+          "title": "Menores",
+          "body": "> No recopilamos intencionadamente información de menores de 13 años.\n> Si crees que un menor proporcionó datos, contáctanos para eliminarlos."
+        },
+        "usage": {
+          "title": "Uso de la información",
+          "body": "> Usamos la información para:\n> - Proporcionar, operar y mantener el bot\n> - Personalizarlo y mejorarlo\n> - Analizar patrones de uso\n> - Desarrollar nuevas funciones"
+        },
+        "rights": {
+          "title": "Tus derechos",
+          "body": "> Puedes retirar tu consentimiento en cualquier momento.\n> Puedes pedir que corrijamos o eliminemos tus datos.\n> Puedes presentar una queja ante tu autoridad de protección de datos."
+        },
+        "changes": {
+          "title": "Cambios",
+          "body": "> Podemos actualizar esta política en cualquier momento. Revisa este comando con frecuencia.\n> Si un cambio requiere tu consentimiento, lo solicitaremos de nuevo."
+        }
+      }
+    },
+    "language": {
+      "description": "Cambia el idioma del bot para este servidor o para ti.",
+      "server": "Define el idioma del servidor (Gestionar servidor).",
+      "me": "Define tu idioma personal.",
+      "reset": "Vuelve al idioma por defecto.",
+      "view": "Muestra el idioma activo.",
+      "options": {
+        "language": "El idioma a usar.",
+        "scope": "Qué restablecer."
+      },
+      "serverSet": "Idioma del servidor establecido en {language}.",
+      "userSet": "Tu idioma se estableció en {language}.",
+      "resetDone": "Preferencia eliminada. Idioma por defecto: {default}.",
+      "notSet": "sin definir",
+      "current": "**Activo:** {active}\n**Tu preferencia:** {user}\n**Servidor:** {server}\n**Por defecto:** {default}\n_Tu preferencia tiene prioridad sobre la del servidor._"
+    },
+    "afk": {
+      "description": "Ponte como ausente (AFK) con un motivo opcional.",
+      "options": {
+        "reason": "El motivo de tu ausencia."
+      },
+      "already": "¡Ya estás AFK!",
+      "noReason": "No se estableció un motivo",
+      "set": "Tu AFK se ha configurado correctamente.",
+      "description_set": "¡{user} ahora está AFK!\n**Motivo:** {reason}",
+      "footer": "Avisaré a quienes te mencionen"
+    },
+    "say": {
+      "description": "Envía un mensaje a través del bot.",
+      "options": {
+        "text": "El texto que quieres enviar."
+      },
+      "sent": "¡Tu mensaje ha sido enviado!"
+    },
+    "translate": {
+      "name": "traductor",
+      "description": "Traduce un texto a otro idioma.",
+      "options": {
+        "text": "El texto a traducir.",
+        "language": "El idioma de destino."
+      },
+      "failed": "No se pudo traducir el texto.",
+      "original": "Original",
+      "translated": "Traducción ({language})",
+      "footer": "Impulsado por Google Translate"
+    },
+    "8ball": {
+      "description": "Pregúntale a la bola mágica.",
+      "options": {
+        "question": "Tu pregunta."
+      },
+      "question": "Pregunta:",
+      "answer": "Respuesta:",
+      "answers": [
+        "En un universo de 9876567... sí",
+        "Será mejor que te lo diga ahora.",
+        "No sé, elige a ti mismo, soy perezosa",
+        "Como yo lo veo, sí.",
+        "Quizás alguna vez",
+        "No entiendo o.O",
+        "Tal vez",
+        "Tal vez o.o",
+        "Tal vez no",
+        "Tal vez si",
+        "Obvio",
+        "Ehh... sí",
+        "Ehh... no",
+        "¡Por supuesto que no! >.<",
+        "¡Por supuesto que si!",
+        "¡Por supuesto!",
+        "Pregúntame otra cosa, ¿sí?",
+        "Cuenta con eso.",
+        "Yo digo que si",
+        "Yo digo que no",
+        "Eso es imposible.",
+        "Probablemente",
+        "Pregunta en otro momento",
+        "Probablemente no",
+        "Probablemente si",
+        "¡Claro!",
+        "¡Claro que no!",
+        "¡Claro que si!",
+        "¡Claro! :D",
+        "No lo sé :S",
+        "No...",
+        "No ¬¬",
+        "Sí...",
+        "Puedes estar seguro de eso",
+        "Perspectivas buenas",
+        "Perspectiva buena",
+        "Perspectiva mala",
+        "Sin dudas",
+        "Sin duda",
+        "Mejor no decírtelo ahora",
+        "vuelve a intentarlo >:)",
+        "Puede ser",
+        "Puede ser e.e",
+        "Pregunte de nuevo más tarde",
+        "Mis fuentes me dicen que si",
+        "Muy dudoso",
+        "No puedes confiar en ello",
+        "Puedes confiar en ello",
+        "Teóricamente, no.",
+        "Teóricamente, si.",
+        "No creo..",
+        "De ninguna manera.",
+        "No estés tan seguro de eso.",
+        "Estoy teniendo un poco de lag, pregunta de nuevo.",
+        "Exactamente.",
+        "No digas eso...",
+        "No hay duda acerca de ello.",
+        "Quizás...",
+        "Es probable",
+        "Concéntrate y pregunta de nuevo",
+        "Respuesta confusa inténtalo de nuevo",
+        "Quisiera saberlo...",
+        "Todo apunta a que sí",
+        "Debes confiar en ello",
+        "¿Tú qué crees?",
+        "Verdadero",
+        "Definitivamente.",
+        "¿Crees que sí?, yo creo que no",
+        "No hay duda acerca de ello.",
+        "Perspectivas no tan buenas",
+        "Sí creo",
+        "¿Por qué la pregunta?",
+        "Sí",
+        "Es cierto.",
+        "Cierto",
+        "Es decididamente así.",
+        "Sin duda.",
+        "Sí, definitivamente.",
+        "Puedes confiar en ello.",
+        "Como yo lo veo, sí.",
+        "Muy probable.",
+        "Perspectivas buena.",
+        "Las señales apuntan a que sí.",
+        "Respuesta confusa, intenta otra vez.",
+        "Pregunta de nuevo más tarde.",
+        "Mejor no decirte ahora...",
+        "No se puede predecir ahora.",
+        "Concéntrate y pregunta otra vez.",
+        "No cuentes con eso.",
+        "Mi respuesta es no.",
+        "Mi respuesta es si.",
+        "Sí <3",
+        "No...",
+        "Falso",
+        "¡Sin lugar a dudas!",
+        "Mis fuentes dicen que no.",
+        "Las perspectivas no son tan buenas...",
+        "Muy dudoso.",
+        "Hmm, no lo creo...",
+        "No lo sé, tu dime...",
+        "Es decididamente así"
+      ]
+    },
+    "roll": {
+      "description": "Lanza un dado.",
+      "rolled": "**{user} ha lanzado un dado**"
+    },
+    "reverse": {
+      "description": "Repite tu mensaje al revés.",
+      "options": {
+        "text": "Texto a invertir."
+      }
+    },
+    "ascii": {
+      "description": "Convierte tu texto en arte ASCII.",
+      "options": {
+        "text": "Texto (máximo 30 caracteres)."
+      },
+      "unsupported": "El texto contiene caracteres no soportados."
+    },
+    "bigtext": {
+      "description": "Convierte tu texto en indicadores regionales.",
+      "options": {
+        "text": "Texto (máximo 40 caracteres)."
+      }
+    },
+    "banana": {
+      "description": "¿Cuánto mide tu banana?",
+      "title": "Medidor de banana",
+      "question": "🍌 **{user}**, ¿en serio eso mide tu banana?",
+      "measures": "La banana de **{user}** mide:"
+    },
+    "fortune": {
+      "name": "fortuna",
+      "description": "Abre una galleta de la suerte.",
+      "says": "Tu galleta de la suerte dice:",
+      "forecast": "Tus pronósticos:",
+      "love": "Amor",
+      "health": "Salud",
+      "money": "Dinero",
+      "luck": "Suerte",
+      "prosperity": "Prosperidad",
+      "messages": [
+        "Sabes que es exactamente lo que quieres. Trabaja en ello y hazlo materializarse.",
+        "Hoy seras reconocido por tus dones especiales y lograras ser feliz por muchas horas.",
+        "Siente la felicidad que espera por ti y no olvides atraparla para mantenerla contigo.",
+        "El cielo sera tu limite, pues grandes acontecimientos te sucederán.",
+        "Concéntrate en lo que quieres lograr y ganaras. No lo olvides.",
+        "Tendrás un día de alegrías y buenos momentos, disfrútalos como nunca.",
+        "Con integridad y consistencia, sus créditos se están acumulando",
+        "Extiende tu mano hoy para apoyar a otros que te necesitan",
+        "El amor es la causa de la diversidad en nuestro planeta. Además de un sentimiento, les la semilla de todo lo que se ha creado.",
+        "No son las riquezas de afuera sino las de adentro las que producen la felicidad.",
+        "¿Qué tan oscuro es oscuro?, ¿Qué tan sabio es sabio?",
+        "Podemos admirar todo lo que vemos, pero solo podemos elegir uno",
+        "El hombre que no tiene imaginación no tiene alas.",
+        "Asumir valientemente la responsabilidad del error de uno es carácter",
+        "No podemos ayudar a todos. Pero todos pueden ayudar a alguien",
+        "El amor se basa en la casualidad, por lo tanto ten el corazón abierto, porque cuando menos te lo esperes aparecerá tu media naranja.",
+        "Descubres tesoros donde otros no ven nada inusual.",
+        "Algunos hombres nacen para amar únicamente a una mujer. Y qué pena, porque es muy complicado toparse con ella.",
+        "Haz todo lo que puedas, ahorra todo lo que puedas, da todo lo que puedas",
+        "Comprender la naturaleza del cambio, cambia la naturaleza",
+        "Tendrás un éxito inusual en los negocios.",
+        "En realidad nunca nos enamoramos de una persona, sino de la imagen que nos hacemos en nuestra cabeza de esa persona.",
+        "El amor es como los incendios, es más fácil ver el humo desde fuera que si te estás quemando dentro.",
+        "El amor verdadero no surge cuando nos encontramos a alguien perfecto, sino cuando vemos la perfección en alguien imperfecto.",
+        "Lo que tenemos es demasiado bello para metáforas, cariño.",
+        "No esperes el momento perfecto para actuar, escoge cualquier momento y conviértelo en perfecto.",
+        "Tu espíritu aventurero te lleva por un nuevo y emocionante camino",
+        "La genialidad es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración",
+        "Eres el maestro de cada situación.",
+        "Sé lo suficientemente valiente para vivir creativamente.",
+        "Las galletas se apuestan. Las fortunas son para siempre",
+        "Tu ingenio e imaginación darán resultados.",
+        "Las posesiones innecesarias son cargas innecesarias",
+        "La habilidad no es algo para presumir",
+        "Si deseas ver lo mejor en los demás, muestra lo mejor de ti mismo",
+        "Tu poder está en tu capacidad de decidir.",
+        "Donde quiera que vayas, siempre que puedas, trata de dejar un regalo",
+        "Las palabras amables pueden dispararse y son fáciles de pronunciar, pero sus ecos son realmente infinitos",
+        "Tu ingenio e imaginación darán resultados.",
+        "La edad nunca puede esperar contigo mientras tu corazón sea joven",
+        "El ejemplo es mejor que la percepción.",
+        "La ociosidad es la fiesta de los necios",
+        "No te dejes empujar por tus problemas. Déjate guiar por tus sueños.",
+        "Muchos reciben consejos, solo los sabios se benefician de ellos",
+        "Tendrás buena suerte y superarás muchas dificultades",
+        "Una buena manera de mantenerse saludable es comer más comida china",
+        "Las ganancias de hoy son el bien de ayer bien madurado",
+        "LSDBS - Que se diga algo bueno.",
+        "Hay en la peor de las fortunas el mejor cambio de un final feliz.",
+        "Servir a muchos conduce a la grandeza.",
+        "El deseo, como el átomo, es explosivo con fuerza creativa",
+        "Pienso y eso es todo lo que soy.",
+        "Juzga cada día no por la cosecha que cosechas, sino por las semillas que plantas",
+        "Ayer fue un desafío para luchar. Hoy es un desafío para ganar",
+        "Haz que cada día sea lo mejor posible. Te mejorarás mucho",
+        "Debes estar dispuesto a actuar hoy para tener éxito",
+        "No te aventures todo en un solo bote",
+        "Reprimir un momento de ira puede salvar un día de tristeza",
+        "Nunca seas menos que tus sueños.",
+        "Los buenos tiempos empiezan cuando cuento hasta 3: 1... 2... 3.",
+        "Una pulgada de tiempo es una pulgada de oro.",
+        "Si persigues dos conejos, ambos escaparán.",
+        "Pronto estarás rodeado de buenos amigos y risas",
+        "La prisa no trae el éxito.",
+        "Tropezarás en el camino que llevará tu vida a la felicidad",
+        "Siempre tendrás éxito en tu carrera profesional.",
+        "Buenas noticias te llegarán desde muy lejos.",
+        "Servicio es la renta que pagas por tener espacio en la Tierra.",
+        "Sé inteligente, pero nunca lo demuestres",
+        "La única certeza es que nada es seguro.",
+        "Tú o un amigo cercano se casarán pronto",
+        "No sabremos el valor del agua hasta que el pozo esté seco",
+        "Tienes talento en muchos sentidos.",
+        "Haz tu mejor esfuerzo para que esto suceda",
+        "Encontrarás grandes fuerzas en lugares inesperados",
+        "Lo que ves en el espejo y lo que eres pueden ser dos imágenes diferentes",
+        "Las excusas son fáciles de fabricar y difíciles de vender",
+        "Haz con los demás lo que te gustaría que otros hicieran contigo.",
+        "Lucha lo más fuerte que puedas por lo que sea que creas.",
+        "Tienes un par de ojos brillantes.",
+        "Deberías ser capaz de emprender y completar cualquier cosa.",
+        "Tus principios significan más para ti que el dinero o el éxito",
+        "El perdón no cambia el pasado, pero sí agranda el futuro.",
+        "¡Mantente erguido! No te menosprecies a ti mismo",
+        "Cada logro verdaderamente grande es al principio imposible",
+        "El valor no es la ausencia del miedo, es la conquista del mismo.",
+        "El hombre sabio rara vez habla.",
+        "Si tienes un trabajo sin agravantes, no tienes trabajo",
+        "Eres de mente abierta y socialmente activa.",
+        "No dejes para mañana lo que se puede disfrutar hoy.",
+        "¡Una reunión familiar en los próximos meses será un tremendo éxito!",
+        "El liderazgo entusiasta te consigue un ascenso cuando menos te lo esperas",
+        "La calamidad es la piedra de toque de una mente valiente.",
+        "Todo lo que agregas a la verdad resta de la verdad.",
+        "Vas a tomarte unas vacaciones.",
+        "El compromiso es de lo que está hecho el carácter; el poder de cambiar la faz de las cosas.",
+        "Un amigo solo pide tu tiempo, no tu dinero",
+        "Un amigo solo pide tu tiempo, no tu dinero",
+        "Un puñado de paciencia vale más que un montón de cerebros",
+        "Un puñado de paciencia vale más que un montón de cerebros",
+        "Tener ochenta años es más alegre y esperanzador que tener cuarenta años",
+        "Tener ochenta años es más alegre y esperanzador que tener cuarenta años",
+        "Una persona no es sabia simplemente porque habla mucho",
+        "Se necesitan agallas para salir de los surcos",
+        "La mayor cualidad es buscar servir a otros.",
+        "La mayoría de las personas, una vez que se gradúan de la escuela de Hard Knocks, se inscriben automáticamente",
+        "Todo el mundo necesita ser amado, especialmente aquellos que no lo merecen",
+        "Ganar no lo es todo, pero la voluntad de ganar sí lo es.",
+        "Muestras los maravillosos rasgos del encanto y la cortesía.",
+        "Se te otorgará un gran honor.",
+        "No construyas tu felicidad sobre el dolor de otros.",
+        "Lo mejor de envejecer es que lleva mucho tiempo",
+        "Tienes un profundo interés por todo lo artístico.",
+        "Beso no es un beso sin corazón.",
+        "No tengas miedo del miedo.",
+        "No tiene sentido ser adulto si no puedes ser infantil a veces",
+        "Aprenderás algo nuevo cada día.",
+        "No se puede ir muy lejos en un bote de remos sin remos.",
+        "El fracaso es la forma virtual de prepararte para grandes responsabilidades.",
+        "Muchos reciben consejos, solo los sabios se benefician de ellos",
+        "Un banquero es alguien que te presta un paraguas cuando brilla el sol.",
+        "Madurez: Cumple con tu deber sin ser supervisado.",
+        "Tu perspectiva alegre es uno de tus activos.",
+        "No se puede tener todo... ¿dónde lo pondrías todo?",
+        "Tienes una personalidad inusualmente magnética.",
+        "Tienes una personalidad inusualmente magnética.",
+        "El que se apresura no puede caminar con dignidad.",
+        "Nunca dudas en abordar los problemas más difíciles.",
+        "Tu naturaleza emocional es fuerte y sensible.",
+        "Problemas serios te pasarán por alto.",
+        "Si conduces por delante del oído, mira hacia atrás de vez en cuando para asegurarte de que todavía está allí",
+        "Tienes una voluntad de hierro, que te ayuda a triunfar en todo.",
+        "Tres pueden guardar un secreto si te deshaces de dos.",
+        "Dondequiera que elijas ir, caras amistosas te saludarán",
+        "Nada se interpone en el camino de tu visión de ti mismo en el futuro",
+        "Comprender es difícil. Una vez que uno comprende, la acción es fácil",
+        "La filosofía de un siglo es el sentido común del siguiente.",
+        "Harás muchos cambios antes de asentarte satisfactoriamente.",
+        "Cuando estés enojado, canta el alfabeto",
+        "La riqueza es un medio para un fin... no el fin en sí mismo.",
+        "Ya es hora de una de tus ideas más prometedoras",
+        "Las pequeñas oportunidades son a menudo el comienzo de grandes empresas",
+        "La gente se siente atraída por ti y busca tu consejo",
+        "Mantén los pies en la tierra aunque los amigos te halaguen.",
+        "Haz una buena acción de forma anónima. Marcarás la diferencia en tu vida",
+        "¡La prosperidad financiera está en camino!",
+        "Un cuerpo sano te beneficiará para siempre.",
+        "La actividad mental te mantiene ocupado en este momento.",
+        "Di \"Te amo\" y sé sincero. No puedes hacer eso lo suficiente.",
+        "El mundo siempre está listo para recibir talento con los brazos abiertos",
+        "Disfruta de las pequeñas cosas que encuentras en tu camino.",
+        "La buena comida trae buena salud y longevidad.",
+        "El acto de dar es más importante que el de recibir.",
+        "Cada carga es una bendición.",
+        "La prosperidad está en tu fortuna.",
+        "Tu próxima entrevista resultará en un trabajo.",
+        "Acepta los desafíos, para que puedas sentir la euforia de la victoria",
+        "El futuro pertenece a aquellos que creen en la belleza de sus sueños",
+        "La paz comienza con una sonrisa.",
+        "Participar en actividades de grupo que fomentan la transformación.",
+        "Siéntete satisfecho con lo que ya tienes.",
+        "Su negocio asumirá grandes proporciones.",
+        "Tienes un impulso potencial y la capacidad de logro",
+        "A la gente le resulta difícil resistirse a tus modales persuasivos.",
+        "La acción es el peor enemigo de la preocupación.",
+        "Los hombres no fallan... dejan de intentarlo",
+        "¿Tus piernas están cansadas? Has estado dando vueltas en la mente de alguien TODO el día.",
+        "Encuentras belleza en las cosas ordinarias. No pierdas esta habilidad",
+        "¿Dejarás que la compasión maneje tus deseos?",
+        "Una persona verdaderamente grande nunca deja de lado la sencillez de un niño",
+        "El hogar está donde está tu corazón.",
+        "Una gran fortuna en casa no es tan buena como el dinero en uso",
+        "El humor es la afirmación de la dignidad.",
+        "Tu pesado deseo, solo te permite ver lo que buscas.",
+        "EQUIPOS: juntos, todos logran más éxito",
+        "Tienes un corazón de oro.",
+        "La vida para ti es una responsabilidad audaz y gallarda",
+        "Quieres aprender a amar, empieza por el que odias.",
+        "Hay belleza en la simplicidad.",
+        "El aprendizaje es un tesoro que nos acompaña a todas partes.",
+        "Es mucho más fácil ser crítico que estar en lo cierto.",
+        "El amor de esta persona es justo y verdadero. Puedes confiar en él",
+        "Pasarás tiempo al aire libre, en las montañas, cerca del agua",
+        "Amigos ausentes por mucho tiempo están volviendo a ti.",
+        "El gozo del hombre prolonga los días de él",
+        "Regenera tu sistema a través de la dieta y el ejercicio. ¡Guarda las galletas!",
+        "Escucha la sabiduría de los viejos.",
+        "Incluso los días más difíciles tienen puntos brillantes, haz lo mejor que puedas",
+        "Tus talentos serán reconocidos y debidamente recompensados",
+        "La fortaleza es el guardián y sostén de las demás virtudes.",
+        "Cuando llegue el momento, toma el de la derecha.",
+        "Los viejos amigos se hacen mejores amigos.",
+        "Tienes la capacidad de sentir y conocer una verdad superior",
+        "La gente aprende poco del éxito, pero mucho del fracaso",
+        "Ten en cuenta tus sueños más preciados del futuro.",
+        "Siempre haces las cosas bien.",
+        "Actúa con valentía y fuerzas invisibles acudirán en tu ayuda",
+        "Únete a un nuevo club hoy, te sorprenderás",
+        "Tus muchos talentos ocultos se harán evidentes para quienes te rodean",
+        "Algunas personas nunca tienen nada más que ideas, ve y hazlo",
+        "Un verdadero patriota es el tipo que recibe una multa de estacionamiento y se alegra de que el sistema funcione",
+        "Es más probable que cedas que te rindas.",
+        "Si muerdes la mano que te da de comer, no sabrá tan bien como la comida que te dieron de comer",
+        "El corazón tiene sus razones, que las razones no conocen",
+        "Incluso el día más largo llegará a su fin",
+        "Disfrutas dando regalos de ti mismo a los demás, ¡serás recompensado!",
+        "No hay preguntas tontas, solo respuestas tontas.",
+        "El éxito es una acumulación de días exitosos.",
+        "Tienes un corazón amistoso y eres muy admirado",
+        "El hecho de que le pongas zapatos de claqué a un elefante no significa que sepa bailar",
+        "Empieza a buscar tus faltas si nunca te has equivocado.",
+        "El buen sentido es el amo de la vida humana.",
+        "Tu suerte ha cambiado por completo hoy.",
+        "Pide consejo, pero usa tu propio sentido común.",
+        "Un juicio fallará a tu favor.",
+        "Tu encantadora sonrisa será tu segura protección.",
+        "Vaya con confianza en dirección de sus sueños.",
+        "Las habilidades que has reunido algún día te serán útiles.",
+        "¡Espero una gran fortuna y una nueva oportunidad de vida!",
+        "Viajarás a muchos lugares.",
+        "Disfrutarás de un viaje a Asia.",
+        "Es mejor hacer algo imperfectamente que no hacer nada a la perfección",
+        "La lógica pura es la ruina del espíritu.",
+        "Tendrás una vida larga y rica.",
+        "Tu sonrisa siempre alegra los días más nublados.",
+        "Un amigo en el mercado es mejor que el dinero en el bolso.",
+        "Una nueva empresa será un éxito.",
+        "Es por aquellos que han sufrido que el mundo está más avanzado",
+        "Todo debe tener un comienzo.",
+        "Lo importante es expresarse.",
+        "El verdadero significado de la iluminación es contemplar con ojos claros todo lo que no está atenuado",
+        "Pronto se desarrollarán nuevas y gratificantes oportunidades para ti.",
+        "Busca afirmar tu devoción cuando surja una situación digna",
+        "El vaso no está medio vacío, es solo el doble de grande",
+        "Un sentimiento es una idea con raíces.",
+        "Tus planes actuales van a tener éxito.",
+        "Una mente sana y un cuerpo sano traen muchos eventos felices a su familia",
+        "Planea tu trabajo y trabaja tu plan.",
+        "El valor se considera, con razón, la primera de las virtudes, pues de él dependen todas las demás",
+        "Saluda a los demás. Tendrás un día más feliz.",
+        "No dejes que tus limitaciones opaquen tus talentos.",
+        "El amor es la afinidad que une y une los elementos del mundo",
+        "Deberías ser capaz de emprender y completar cualquier cosa.",
+        "El desarrollo del carácter es el verdadero objetivo de la educación.",
+        "Confía en él, pero mantén los ojos abiertos",
+        "El que naufraga por segunda vez no puede echarle la culpa a Neptuno",
+        "Para obtener el respeto de los demás, primero hay que respetar a los demás",
+        "Camina las palabras que hablas y habla las palabras que caminas",
+        "La gente olvida lo rápido que hiciste un trabajo, pero recuerdan lo bien que lo hiciste",
+        "Es el momento adecuado para hacer nuevos amigos.",
+        "Haz lo que es correcto, no lo que debes.",
+        "La puntualidad es la cortesía de los reyes y el deber de la gente amable en todas partes",
+        "Si esperas demasiado por el momento perfecto, el momento perfecto pasará",
+        "Tu corazón es puro, tu mente clara y tu alma devota.",
+        "Camina con buen corazón y correrás con éxito.",
+        "No debemos permitir que nuestros miedos nos impidan perseguir nuestras esperanzas.",
+        "No confundas la tentación con la oportunidad.",
+        "Pronto conocerás a la persona que admiras.",
+        "Un buen momento para empezar algo nuevo.",
+        "Todas las generalidades son falsas.",
+        "Vuelve más tarde... Estoy durmiendo. (sí, las galletas también necesitan dormir)",
+        "Si al principio no tienes éxito... intenta algo más difícil.",
+        "Tus buenas habilidades para escuchar te abrirán muchas puertas.",
+        "Dos personas acortan un camino.",
+        "¡Deja de esperar! ¡Compre ese boleto y tome ese viaje especial!",
+        "Un problema claramente planteado es un problema medio resuelto.",
+        "Acepte su independencia y utilícela sabiamente.",
+        "Que los cálidos vientos del cielo soplen suavemente sobre tu carrera.",
+        "Todo parece imposible hasta que alguien lo hace.",
+        "Sólo es libre el esclavo de sus sentimientos.",
+        "La amistad supera a las circunstancias.",
+        "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+        "Por la puerta de la pereza entra el aburrimiento.",
+        "Está galleta nunca te abandonará, nunca te defraudará.",
+        "Tus esfuerzos no han pasado desapercibidos.",
+        "Se necesita coraje para admitir un error.",
+        "La fortuna favorece a la mente preparada.",
+        "La paciencia te llevará a la perfección.",
+        "Si el día te sonríe, sonríele tu a él.",
+        "No siempre el mejor camino es el más corto.",
+        "Sonríe, es tu mejor bienvenida.",
+        "Alguien te está viendo. No defraudes a esa persona.",
+        "Se dice que el cerebro funciona desde que naces, hasta que te enamoras.",
+        "Ríe y el mundo reirá contigo, ronca y dormirás solo.",
+        "Cuando la vida te da limones, arrójaselos a alguien a los ojos.",
+        "Tres pueden mantener un secreto, si te deshaces de dos.",
+        "Trabajar no es malo, lo malo es tener que trabajar.",
+        "Nunca dejes para mañana lo que puedas hacer pasado mañana.",
+        "Nunca hagas nada por hambre, ni siquiera comer.",
+        "Nunca vayas a un doctor cuyas plantas de oficina se han muerto.",
+        "No puedo ayudarte, soy solo una galleta.",
+        "Es una locura amar, a menos de que se ame con locura.",
+        "Cásate con alguien que sepa conversar ya que con el pasar de los años sólo eso podrán hacer.",
+        "Tu amor a la música será una parte importante de tu vida.",
+        "Si el mundo es un pañuelo, ¿nosotros qué somos?",
+        "Tener la conciencia limpia es señal de mala memoria.",
+        "¡Ayuda! Estoy siendo prisionero de una pastelería china.",
+        "Ya era tiempo que saliera de esta galleta.",
+        "Te casarás con un atleta profesional. Si las competencias de comer pueden ser consideradas un deporte.",
+        "No te tomes la vida demasiado en serio. No saldrás de ella con vida."
+      ]
+    },
+    "meter": {
+      "description": "Medidores aleatorios divertidos.",
+      "gay": {
+        "description": "Medidor de gay.",
+        "title": "Medidor de gay",
+        "question": ":rainbow_flag: **{user}**, ¿en serio eres gay?",
+        "result": "El porcentaje de gay es:"
+      },
+      "simp": {
+        "description": "Medidor de simp.",
+        "title": "Medidor de simp",
+        "question": "💘 **{user}**, ¿cuánto simp eres?",
+        "result": "El porcentaje de simp es:"
+      }
+    },
+    "ship": {
+      "description": "Compara la compatibilidad amorosa entre dos usuarios.",
+      "options": {
+        "user1": "Primer usuario.",
+        "user2": "Segundo usuario (por defecto, tú)."
+      },
+      "title": "Compatibilidad amorosa",
+      "name": "Nombre del ship",
+      "compatibility": "Compatibilidad",
+      "messages": {
+        "10": "Es más probable que se queden como amigos y nada más.",
+        "20": "Podrían intentarlo, pero quizás no sea el momento adecuado.",
+        "30": "Pienso que les irá mejor con alguien más.",
+        "40": "¡Parece que se gustan mucho!",
+        "50": "¡Hay potencial para una gran historia de amor aquí!",
+        "60": "Hay un poco de química, ¿por qué no intentarlo?",
+        "70": "Ay miren, sí se quieren.",
+        "80": "Definitivamente la pareja más linda.",
+        "90": "Definitivamente deberían estar juntos.",
+        "100": "No pude haberle hecho ship a una mejor pareja que esta."
+      }
+    },
+    "animal": {
+      "description": "Obtén un dato aleatorio sobre un animal.",
+      "options": {
+        "type": "Elige un animal."
+      },
+      "failed": "No se pudo obtener el dato del animal. Inténtalo más tarde.",
+      "title": "Dato interesante sobre {animal}",
+      "names": {
+        "dog": "los perros",
+        "cat": "los gatos",
+        "panda": "los pandas",
+        "fox": "los zorros",
+        "bird": "los pájaros",
+        "koala": "los koalas"
+      }
+    },
+    "games": {
+      "description": "Juega en el servidor.",
+      "slots": "Juega a las tragamonedas.",
+      "2048": "Juega al 2048.",
+      "hangman": "Adivina la palabra antes de que se complete el ahorcado.",
+      "mines": "Juega al buscaminas.",
+      "findemoji": "Encuentra los emojis ocultos.",
+      "flood": "Juega a Flood.",
+      "snake": "Juega al clásico Snake.",
+      "rps": "Piedra, papel o tijera contra alguien.",
+      "tictactoe": "Tres en raya contra alguien.",
+      "connect4": "Conecta 4 contra alguien.",
+      "options": {
+        "opponent": "Tu oponente."
+      },
+      "hangmanWin": "¡Ganaste! La palabra era: **{word}**",
+      "hangmanLose": "¡Perdiste! La palabra era: **{word}**.",
+      "invalidOpponent": "No puedes jugar contra ti mismo ni contra un bot.",
+      "playerOnly": "Solo {player} puede usar estos botones."
+    },
+    "filters": {
+      "name": "filtros",
+      "description": "Aplica un filtro al avatar de un usuario.",
+      "options": {
+        "filter": "El filtro a aplicar."
+      }
+    },
+    "image": {
+      "description": "Comandos de manipulación de imágenes.",
+      "failed": "No se pudo generar la imagen. Inténtalo más tarde.",
+      "textBlocked": "El texto no puede incluir palabras ofensivas ni enlaces (los administradores están exentos).",
+      "textTooLong": "El texto es demasiado largo (máximo {max} caracteres).",
+      "options": {
+        "textOption": "Elige una plantilla.",
+        "message": "El texto a escribir."
+      },
+      "effects": {
+        "delete": "Meme de eliminar.",
+        "wanted": "Cartel de se busca.",
+        "trash": "Meme de basura.",
+        "triggered": "Gif de triggered.",
+        "rip": "Lápida.",
+        "bobross": "Pintura de Bob Ross.",
+        "facepalm": "Facepalm.",
+        "poutine": "Poutine.",
+        "ad": "Anuncio.",
+        "mms": "M&M's.",
+        "jail": "Tras las rejas.",
+        "stonk": "Stonks.",
+        "notstonk": "Not stonks.",
+        "confusedstonk": "Stonks confundido.",
+        "clown": "Payaso.",
+        "simpcard": "Carnet de simp.",
+        "plsbro": "Please bro.",
+        "text": "Escribe texto sobre una imagen."
+      }
+    },
+    "search": {
+      "name": "buscar",
+      "description": "Comandos de búsqueda para obtener información.",
+      "lyrics": "Obtén la letra de una canción.",
+      "pokemon": "Mira las estadísticas de un Pokémon.",
+      "urban": "Define un término en Urban Dictionary.",
+      "weather": "Consulta el pronóstico del tiempo.",
+      "anime": "Información de un anime (Kitsu).",
+      "wikipedia": "Busca en Wikipedia.",
+      "options": {
+        "lyrics": "Título (funciona mejor \"artista - canción\").",
+        "pokemon": "Nombre o ID del Pokémon.",
+        "urban": "El término a buscar.",
+        "weather": "Una ubicación.",
+        "anime": "El nombre del anime.",
+        "wikipedia": "Qué buscar."
+      }
+    },
+    "server": {
+      "description": "Obtén información y recursos del servidor.",
+      "info": "Información detallada del servidor.",
+      "images": "Banner, ícono o splash del servidor.",
+      "members": "Miembros más antiguos y recientes.",
+      "firstMessage": "Obtén el primer mensaje de un canal.",
+      "channelInfo": "Información de un canal.",
+      "roleInfo": "Información de un rol.",
+      "inviteInfo": "Información de una invitación.",
+      "options": {
+        "imageType": "Tipo de imagen.",
+        "channel": "Un canal.",
+        "role": "Un rol.",
+        "invite": "Código de invitación (ejemplo: dGB9fJ3azu)."
+      }
+    },
+    "user": {
+      "description": "Comandos de información de usuarios de Discord.",
+      "info": "Información detallada de un usuario.",
+      "avatar": "Obtén el avatar de un usuario.",
+      "banner": "Obtén el banner de un usuario.",
+      "checkperms": "Verifica los permisos de un usuario en este canal."
+    },
+    "welcome": {
+      "description": "Configura el sistema de bienvenida.",
+      "setup": "Abre el panel de configuración de bienvenida.",
+      "pingJoin": "Menciona a los nuevos miembros y borra la mención al instante.",
+      "options": {
+        "enabled": "Activar o desactivar.",
+        "channel": "Canal de la mención (por defecto, el del sistema).",
+        "message": "Mensaje personalizado."
+      },
+      "pingJoinOn": "Ping al entrar activado.",
+      "pingJoinOff": "Ping al entrar desactivado."
+    },
+    "redeem": {
+      "description": "Canjea un código premium.",
+      "options": {
+        "code": "El código a canjear."
+      },
+      "already": "Ya tienes un Premium activo.",
+      "invalid": "Ese código no es válido.",
+      "success": "¡Has canjeado Premium con éxito! Expira {expires}."
+    },
+    "premium": {
+      "description": "Consulta tu estado Premium.",
+      "none": "No tienes Premium activo. Usa `/redeem` si tienes un código.",
+      "active": "Tu Premium expira {expires}.",
+      "plan": "Plan",
+      "user": "Usuario",
+      "expires": "Expira"
+    },
+    "blacklist": {
+      "description": "Gestiona la lista negra (desarrolladores).",
+      "add": "Añade un usuario o servidor a la lista negra.",
+      "remove": "Quita una entrada de la lista negra.",
+      "list": "Muestra las últimas entradas.",
+      "options": {
+        "id": "ID del usuario o servidor.",
+        "reason": "Motivo.",
+        "target": "Usuario o servidor."
+      },
+      "invalidId": "ID inválida.",
+      "added": "{target} `{id}` añadido a la lista negra.",
+      "removed": "{target} `{id}` eliminado de la lista negra.",
+      "notFound": "{target} `{id}` no está en la lista negra."
+    },
+    "generate": {
+      "description": "Genera códigos premium (desarrolladores).",
+      "options": {
+        "plan": "El plan.",
+        "amount": "Cuántos códigos (1-25)."
+      },
+      "title": "Generar códigos",
+      "generated": "• Generados [{count}]",
+      "plan": "• Plan",
+      "expires": "• Expira",
+      "footer": "¡Usa /redeem <código> para canjear!",
+      "none": "No se pudo generar ningún código."
+    },
+    "badge": {
+      "description": "Gestiona las insignias de usuarios (desarrolladores).",
+      "options": {
+        "badge": "La insignia.",
+        "enabled": "Añadir (true) o quitar (false)."
+      },
+      "added": "Insignia `{badge}` añadida a {user}.",
+      "removed": "Insignia `{badge}` quitada a {user}.",
+      "nothing": "No hay nada que cambiar."
+    },
+    "hoststats": {
+      "description": "Estadísticas del host y del proceso (desarrolladores)."
+    },
+    "servers": {
+      "description": "Listas de servidores (desarrolladores).",
+      "top": "Top 20 servidores por miembros.",
+      "list": "Lista completa en un .txt."
+    },
+    "restart": {
+      "description": "Reinicia el bot (desarrolladores).",
+      "restarting": "🤖 El bot se está reiniciando…"
+    },
+    "setavatar": {
+      "description": "Cambia el avatar del bot (desarrolladores).",
+      "options": {
+        "link": "Enlace de la imagen."
+      },
+      "done": "Avatar actualizado.",
+      "failed": "No se pudo actualizar el avatar: {error}"
+    },
+    "screenshot": {
+      "description": "Captura de pantalla de una web (desarrolladores).",
+      "options": {
+        "url": "La URL."
+      },
+      "invalid": "URL inválida.",
+      "failed": "No se pudo tomar la captura."
+    },
+    "eval": {
+      "description": "Ejecuta código (desarrolladores, desactivado por defecto)."
+    },
+    "calculator": {
+      "name": "calculadora",
+      "description": "Abre una calculadora con botones.",
+      "title": "Calculadora",
+      "invalid": "Expresión no válida",
+      "divisionByZero": "No se puede dividir entre cero",
+      "onlyOwner": "¡Solo {user} puede usar estos botones!"
+    },
+    "interact": {
+      "name": "interactuar",
+      "description": "Interactúa con otros usuarios (abrazar, acariciar, besar…)."
+    },
+    "react": {
+      "name": "reaccionar",
+      "description": "Expresa una reacción con un GIF (llorar, feliz, sonrojarse…)."
+    }
+  },
+  "reactions": {
+    "apiError": "No se pudo obtener un GIF ahora mismo. Inténtalo más tarde.",
+    "counter": {
+      "hug": "**{target}** ha recibido **{count}** abrazo(s) en total.",
+      "kiss": "**{target}** ha recibido **{count}** beso(s) en total.",
+      "pat": "**{target}** ha recibido **{count}** caricia(s) en total.",
+      "slap": "**{target}** ha recibido **{count}** bofetada(s) en total."
+    },
+    "userOption": "Un usuario (opcional).",
+    "angry": {
+      "description": "Expresa que estás enfadado/a.",
+      "self": "**{user}** siente mucha molestia >-<",
+      "target": "**{user}** se enfadó con **{target}**",
+      "bot": "**{user}**, no te enfades conmigo. u.u"
+    },
+    "baka": {
+      "description": "Dile a alguien que es un baka (idiota).",
+      "self": "**{user}** se llama baka a sí mismo/a... ¡qué tierno!",
+      "target": "**{user}** le dijo baka a **{target}**",
+      "bot": "**{user}**, ¡baka lo serás tú! >.<"
+    },
+    "bite": {
+      "description": "Muerde a alguien, ñam ñam~",
+      "self": "Voy a morderte **{user}**, eres tan dulce...",
+      "target": "**{user}** mordió a **{target}**",
+      "bot": "**{user}**, no me muerdas..."
+    },
+    "coffee": {
+      "description": "Toma una rica taza de café.",
+      "self": "**{user}** disfruta de un café.",
+      "target": "**{user}** le invita un café a **{target}**",
+      "bot": "**{user}** me invita un café, ¡gracias!"
+    },
+    "cuddle": {
+      "description": "Acurrúcate con alguien.",
+      "self": "**{user}** quiere acurrucarse... ven, te acurruco yo.",
+      "target": "**{user}** se acurruca con **{target}**",
+      "bot": "**{user}** se acurruca conmigo, ¡qué lindo! >.<"
+    },
+    "dance": {
+      "description": "Baila a solas o con alguien.",
+      "self": "**{user}** está bailando.",
+      "target": "**{user}** baila con **{target}**",
+      "bot": "**{user}** baila conmigo, ¡vamos!"
+    },
+    "handhold": {
+      "description": "Toma la mano de alguien.",
+      "self": "**{user}** busca una mano que tomar... toma la mía.",
+      "target": "**{user}** toma la mano de **{target}**",
+      "bot": "**{user}** toma mi mano, ¡gracias!"
+    },
+    "hi": {
+      "description": "Saluda a todos o a alguien.",
+      "self": "**{user}** saluda a todos.",
+      "target": "**{user}** saluda a **{target}**",
+      "bot": "¡Hola **{user}**!"
+    },
+    "highfive": {
+      "description": "¡Choca esos cinco!",
+      "self": "**{user}** choca los cinco con el aire... ¡yo te los choco!",
+      "target": "**{user}** choca los cinco con **{target}**",
+      "bot": "¡Choca esos cinco, **{user}**!"
+    },
+    "hug": {
+      "description": "Dale un abrazo a alguien.",
+      "self": "Ahí te van abrazos, **{user}**",
+      "target": "**{user}** le dio un abrazo a **{target}**",
+      "bot": "**{user}** me abraza, ¡gracias!"
+    },
+    "kiss": {
+      "description": "Dale un beso a alguien.",
+      "self": "**{user}** manda un beso al aire.",
+      "target": "**{user}** besó a **{target}**",
+      "bot": "**{user}**, ¡qué vergüenza! >///<"
+    },
+    "laugh": {
+      "description": "Ríete de algo o de alguien.",
+      "self": "**{user}** se ríe.",
+      "target": "**{user}** se ríe de **{target}**",
+      "bot": "**{user}** se ríe de mí... ;-;"
+    },
+    "lick": {
+      "description": "Lame a alguien.",
+      "self": "**{user}** se lame a sí mismo/a... qué raro.",
+      "target": "**{user}** lamió a **{target}**",
+      "bot": "**{user}**, ¡no me lamas!"
+    },
+    "pat": {
+      "description": "Acaricia a alguien.",
+      "self": "**{user}** se acaricia la cabeza.",
+      "target": "**{user}** acaricia a **{target}**",
+      "bot": "**{user}** me acaricia, ¡nyaa~!"
+    },
+    "poke": {
+      "description": "Molesta a alguien con un toquecito.",
+      "self": "**{user}** se da un toquecito.",
+      "target": "**{user}** molesta a **{target}**",
+      "bot": "**{user}**, ¡no me molestes!"
+    },
+    "punch": {
+      "description": "Golpea a alguien D':",
+      "self": "**{user}** se golpea a sí mismo/a... ¡auch!",
+      "target": "**{user}** golpeó a **{target}**",
+      "bot": "**{user}**, ¡no me pegues! ;-;"
+    },
+    "scared": {
+      "description": "Expresa que sientes miedo.",
+      "self": "**{user}** tiene mucho miedo.",
+      "target": "**{user}** le tiene miedo a **{target}**",
+      "bot": "**{user}**, no tengas miedo, soy buena."
+    },
+    "shy": {
+      "description": "Expresa que estás tímido/a.",
+      "self": "**{user}** se pone tímido/a.",
+      "target": "**{user}** se pone tímido/a frente a **{target}**",
+      "bot": "**{user}** se pone tímido/a conmigo, ¡qué lindo!"
+    },
+    "slap": {
+      "description": "Dale una bofetada a alguien.",
+      "self": "**{user}** se da una bofetada a sí mismo/a.",
+      "target": "**{user}** le dio una bofetada a **{target}**",
+      "bot": "**{user}**, ¡no me pegues! ;-;"
+    },
+    "sleep": {
+      "description": "Expresa que tienes sueño.",
+      "self": "**{user}** tiene sueño y se irá a dormir.",
+      "target": "**{user}** se duerme junto a **{target}**",
+      "bot": "**{user}** duerme a mi lado, buenas noches."
+    },
+    "stare": {
+      "description": "Mira fijamente a alguien...",
+      "self": "**{user}** mira fijamente al vacío.",
+      "target": "**{user}** mira fijamente a **{target}**",
+      "bot": "**{user}**, ¿por qué me miras así?"
+    },
+    "tickle": {
+      "description": "Hazle cosquillas a alguien.",
+      "self": "**{user}** se hace cosquillas a sí mismo/a.",
+      "target": "**{user}** le hace cosquillas a **{target}**",
+      "bot": "**{user}**, ¡jajaja, para, me haces cosquillas!"
+    },
+    "clap": {
+      "description": "Aplaude algo o a alguien.",
+      "self": "**{user}** está aplaudiendo.",
+      "target": "**{user}** le aplaude a **{target}**",
+      "bot": "**{user}**, ¡muchas gracias! n.n"
+    },
+    "blush": {
+      "description": "Sonrójate (con o sin motivo).",
+      "self": "Awww, **{user}** se sonroja, ¿por qué será?",
+      "target": "Awww, **{target}** hizo que **{user}** se sonroje, qué tierno.",
+      "bot": "¡Ay, **{user}**! ¡Cómo te atreves!"
+    },
+    "boom": {
+      "description": "¡BOOM! Crea una explosión.",
+      "self": "**{user}** hizo una explosión.",
+      "target": "**{user}** hizo explotar a **{target}**",
+      "bot": "**{user}**, ¡no me hagas explotar!"
+    },
+    "bored": {
+      "description": "Expresa que estás aburrido/a.",
+      "self": "**{user}** está aburrido/a.",
+      "target": "**{user}** se aburre con **{target}**",
+      "bot": "**{user}** se aburre... ¡juguemos algo!"
+    },
+    "confused": {
+      "description": "Expresa que estás confundido/a.",
+      "self": "**{user}** está confundido/a.",
+      "target": "**{user}** está confundido/a por **{target}**",
+      "bot": "**{user}** está confundido/a conmigo... ¿preguntas?"
+    },
+    "cry": {
+      "description": "Expresa que estás llorando.",
+      "self": "**{user}** está llorando.",
+      "target": "**{user}** llora por **{target}**",
+      "bot": "**{user}**, no llores... ;-;"
+    },
+    "facepalm": {
+      "description": "Date un golpe en la cara.",
+      "self": "**{user}** se da un facepalm.",
+      "target": "**{user}** hace facepalm por **{target}**",
+      "bot": "**{user}**, ¿tan mal lo hice?"
+    },
+    "happy": {
+      "description": "Demuestra tu felicidad.",
+      "self": "**{user}** está feliz.",
+      "target": "**{user}** está feliz con **{target}**",
+      "bot": "**{user}** está feliz conmigo, ¡yay!"
+    },
+    "like": {
+      "description": "Expresa que te gusta algo.",
+      "self": "**{user}** da su aprobación.",
+      "target": "A **{user}** le gusta lo que hizo **{target}**",
+      "bot": "¡Gracias, **{user}**!"
+    },
+    "nervous": {
+      "description": "Expresa que estás nervioso/a.",
+      "self": "**{user}** está nervioso/a.",
+      "target": "**{target}** pone nervioso/a a **{user}**",
+      "bot": "**{user}** se pone nervioso/a conmigo..."
+    },
+    "nom": {
+      "description": "Come algo rico.",
+      "self": "**{user}** come algo delicioso.",
+      "target": "**{user}** le da de comer a **{target}**",
+      "bot": "**{user}** me da de comer, ¡ñam!"
+    },
+    "nope": {
+      "description": "No te gusta algo.",
+      "self": "**{user}** dice que no.",
+      "target": "**{user}** le dice que no a **{target}**",
+      "bot": "**{user}**, ¿por qué me dices que no?"
+    },
+    "pout": {
+      "description": "Haz puchero.",
+      "self": "**{user}** hace puchero.",
+      "target": "**{user}** hace puchero a **{target}**",
+      "bot": "**{user}** hace puchero... ¿qué hice?"
+    },
+    "run": {
+      "description": "Corre y huye de la situación.",
+      "self": "**{user}** sale corriendo.",
+      "target": "**{user}** huye de **{target}**",
+      "bot": "**{user}**, ¡no huyas de mí!"
+    },
+    "sad": {
+      "description": "Expresa que estás triste.",
+      "self": "**{user}** está triste.",
+      "target": "**{user}** está triste por **{target}**",
+      "bot": "**{user}**, no estés triste, aquí estoy."
+    },
+    "scream": {
+      "description": "¡Grita Aaaaaah!",
+      "self": "**{user}** grita a todo pulmón.",
+      "target": "**{user}** le grita a **{target}**",
+      "bot": "**{user}**, ¡no me grites!"
+    },
+    "shrug": {
+      "description": "Encógete de hombros.",
+      "self": "**{user}** se encoge de hombros.",
+      "target": "**{user}** se encoge de hombros ante **{target}**",
+      "bot": "**{user}** se encoge de hombros..."
+    },
+    "sip": {
+      "description": "Bebe algo con calma.",
+      "self": "**{user}** bebe algo con calma.",
+      "target": "**{user}** bebe con **{target}**",
+      "bot": "**{user}** bebe conmigo, ¡salud!"
+    },
+    "smile": {
+      "description": "Sonríe.",
+      "self": "**{user}** sonríe.",
+      "target": "**{user}** le sonríe a **{target}**",
+      "bot": "**{user}** me sonríe, ¡gracias!"
+    },
+    "smug": {
+      "description": "Presumido/a o engreído/a.",
+      "self": "**{user}** se ve muy presumido/a.",
+      "target": "**{user}** presume ante **{target}**",
+      "bot": "**{user}**, ¿tan orgulloso/a estás?"
+    }
+  }
+}
