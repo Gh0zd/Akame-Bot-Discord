@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akame — Bot de Discord de código abierto</title>
+  <meta name="description" content="Akame es un bot de Discord open source: user info, meters, interacciones, bienvenidas personalizables y traductor. ES / EN / PT." />
+  <meta name="theme-color" content="#0d0a1a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="logo">Akame</a>
+    <nav>
+      <a href="#shots" data-i18n="nav_shots">Capturas</a>
+      <a href="#host" data-i18n="nav_host">Instalar</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button class="active" data-lang="es">ES</button>
+      <button data-lang="en">EN</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Akame</h1>
+        <p class="lead" data-i18n="hero_lead">Un bot de Discord de código abierto con diversión, utilidad y bienvenidas personalizables. Listo para hostear tú mismo.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/Gh0zd/Akame-Bot-Discord" target="_blank" rel="noopener" data-i18n="cta_github">Ver en GitHub</a>
+          <a class="btn" href="#shots" data-i18n="cta_shots">Ver capturas</a>
+        </div>
+        <p class="meta" data-i18n="hero_meta">discord.js v14 · Node.js · SQLite · Español, English y Português</p>
+      </div>
+      <img class="hero-shot" src="images/05.png" alt="Comando user info de Akame en Discord" width="668" height="656" />
+    </section>
+
+    <section class="section" id="shots">
+      <h2 class="reveal" data-i18n="shots_title">En Discord</h2>
+      <div class="shots">
+        <button class="thumb reveal" type="button" data-full="images/05.png" data-cap="/user info" aria-label="user info">
+          <img src="images/05.png" alt="user info" loading="lazy" />
+          <span><code>/user info</code></span>
+        </button>
+        <button class="thumb reveal" type="button" data-full="images/04.png" data-cap="/server members" aria-label="server members">
+          <img src="images/04.png" alt="server members" loading="lazy" />
+          <span><code>/server members</code></span>
+        </button>
+        <button class="thumb reveal" type="button" data-full="images/06.png" data-cap="/server invite-info" aria-label="server invite-info">
+          <img src="images/06.png" alt="server invite-info" loading="lazy" />
+          <span><code>/server invite-info</code></span>
+        </button>
+        <button class="thumb reveal" type="button" data-full="images/03.png" data-cap="/interact kiss" aria-label="interact kiss">
+          <img src="images/03.png" alt="interact kiss" loading="lazy" />
+          <span><code>/interact kiss</code></span>
+        </button>
+        <button class="thumb reveal" type="button" data-full="images/02.png" data-cap="/meter simp" aria-label="meter simp">
+          <img src="images/02.png" alt="meter simp" loading="lazy" />
+          <span><code>/meter simp</code></span>
+        </button>
+        <button class="thumb reveal" type="button" data-full="images/01.png" data-cap="/meter gay" aria-label="meter gay">
+          <img src="images/01.png" alt="meter gay" loading="lazy" />
+          <span><code>/meter gay</code></span>
+        </button>
+      </div>
+      <p class="hint" data-i18n="shots_hint">Toca una captura para verla completa.</p>
+    </section>
+
+    <section class="section host" id="host">
+      <div class="host-text reveal">
+        <h2 data-i18n="host_title">Instálalo en tu servidor</h2>
+        <p data-i18n="host_desc">Clona el repositorio, agrega tu token y ejecútalo. Sigue el README para los detalles.</p>
+        <a class="btn primary" href="https://github.com/Gh0zd/Akame-Bot-Discord" target="_blank" rel="noopener" data-i18n="host_cta">Abrir repositorio</a>
+      </div>
+      <div class="code reveal">
+        <button class="copy" type="button" id="copyBtn" data-i18n="copy">Copiar</button>
+<pre><code id="cmds">git clone https://github.com/Gh0zd/Akame-Bot-Discord
+cd Akame-Bot-Discord
+npm install
+node .</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Akame · <span data-i18n="foot">código abierto</span></span>
+    <a href="https://github.com/Gh0zd/Akame-Bot-Discord" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Captura" hidden>
+    <button class="lb-close" type="button" aria-label="Cerrar">×</button>
+    <button class="lb-nav prev" type="button" aria-label="Anterior">‹</button>
+    <figure><img id="lbImg" alt="" /><figcaption id="lbCap"></figcaption></figure>
+    <button class="lb-nav next" type="button" aria-label="Siguiente">›</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
