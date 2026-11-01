@@ -1,4 +1,4 @@
-# Akame Bot Discord
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Akame-Bot-Discord&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient"/>
 
 Bot de Discord desarrollado con **discord.js v14**, **Node.js** y **SQLite**. Incluye comandos de utilidad, diversión, información y configuración, además de un sistema de bienvenidas personalizable. La interfaz y los comandos están disponibles en español, inglés y portugués.
 
@@ -95,3 +95,5 @@ npm test
 ## Añadir un comando
 
 Crea un archivo en la categoría correspondiente dentro de `src/commands/`, define el comando con `SlashCommandBuilder` y usa las claves de `src/locales/` para sus textos. Mantén las traducciones de los tres idiomas sincronizadas y ejecuta `npm test`.
+## Screenshots
+![App Screenshot](https://i.postimg.cc/6qTQYGkv/photo-collage.png)
